@@ -1,0 +1,30 @@
+.leaflet-control-browser-print.leaflet-bar.leaflet-control {
+    position: fixed;
+    /* margin-bottom: 38px !important;
+    margin-right: 23px !important;*/
+    
+    right: 4px !important;
+    bottom: 70px !important;
+}
+
+a.leaflet-browser-print {
+    margin-bottom: 33px !important;
+    margin-right: -15px !important;
+    transform: scale(1.2) !important; 
+}
+.leaflet-control-browser-print.leaflet-bar.leaflet-control:hover{
+    right: 4px !important;
+    bottom: 70px !important;
+   
+}
+
+a.leaflet-browser-print:hover{
+    margin-bottom: 33px !important;
+    margin-right: -15px !important;
+    transform: scale(1.2) !important; 
+}
+
+ul.browser-print-holder {
+    height: 36px !important;
+    margin-top: -3px !important;
+}

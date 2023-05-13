@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="257.207" height="214.787" viewBox="0 0 257.207 214.787">
+  <g id="Group_5566" data-name="Group 5566" transform="translate(-16.226 -19.213)">
+    <g id="Group_3088" data-name="Group 3088" transform="translate(0)">
+      <g id="Group_2871" data-name="Group 2871" transform="translate(0)">
+        <g id="Group_2826" data-name="Group 2826">
+          <g id="Group_2825" data-name="Group 2825" transform="translate(23.736 20.609)">
+            <text id="Social_class" data-name="Social class" transform="translate(0 14)" fill="#302f2f" font-size="15" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Social Class</tspan></text>
+            <line id="Line_77" data-name="Line 77" x2="20.944" transform="translate(2.094 23.372)" fill="none"/>
+          </g>
+        </g>
+        <text id="Total_:_5700" data-name="Total : 5700" transform="translate(181.721 34.213)" fill="#53a8e3" font-size="16" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Total : 5700</tspan></text>
+      </g>
+      <g id="Group_2998" data-name="Group 2998" transform="translate(16.226 62.173)">
+        <path id="Path_3722" data-name="Path 3722" d="M284.956,524.948v0c-.6-.018-1.208-.032-1.817-.032A56.683,56.683,0,0,0,226.457,581.6c0,.792.02,1.58.053,2.364l2.84,1.283-2.84-1.283a56.68,56.68,0,0,0,113.074,2.825l-4.963-1.542,4.963,1.542c.155-1.709.239-3.439.239-5.189A56.682,56.682,0,0,0,284.956,524.948Z" transform="translate(-206.032 -504.491)" fill="none"/>
+        <path id="Path_3723" data-name="Path 3723" d="M371.924,622.089a56.686,56.686,0,0,1-56.444,51.494v20.425a77.122,77.122,0,0,0,76.274-65.755Z" transform="translate(-238.373 -539.793)" fill="#52a8e3"/>
+        <path id="Path_3724" data-name="Path 3724" d="M214.857,612.452l-20.18-9.113c-.193,2.225-.3,4.475-.3,6.75A77.107,77.107,0,0,0,271.486,687.2V666.771A56.681,56.681,0,0,1,214.857,612.452Z" transform="translate(-194.379 -532.981)" fill="#634ebb"/>
+        <path id="Path_3725" data-name="Path 3725" d="M373.2,569.959c0,1.75-.084,3.48-.239,5.189l19.83,6.163a77.146,77.146,0,0,0-74.457-88.437v20.434A56.682,56.682,0,0,1,373.2,569.959Z" transform="translate(-239.409 -492.851)" fill="#f78c4c"/>
+        <path id="Path_3726" data-name="Path 3726" d="M214.973,569.946a56.683,56.683,0,0,1,56.683-56.683c.608,0,1.213.013,1.817.032V492.861c-.6-.014-1.209-.023-1.817-.023a77.111,77.111,0,0,0-76.81,70.358l20.18,9.113C214.994,571.526,214.973,570.738,214.973,569.946Z" transform="translate(-194.549 -492.838)" fill="#a19c14"/>
+      </g>
+    </g>
+    <g id="Group_3005" data-name="Group 3005" transform="translate(196 56)">
+      <g id="Group_3000" data-name="Group 3000" transform="translate(0 0)">
+        <g id="Group_2819" data-name="Group 2819" transform="translate(0 0)">
+          <text id="High_" data-name="High " transform="translate(16.432 9)" fill="gray" font-size="9" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">High </tspan></text>
+          <circle id="Ellipse_455" data-name="Ellipse 455" cx="4.5" cy="4.5" r="4.5" transform="translate(0.432 2)" fill="#995bd6"/>
+        </g>
+        <text id="_1200" data-name="1200" transform="translate(15.432 32)" fill="#302f2f" font-size="14" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">1200</tspan></text>
+      </g>
+      <g id="Group_3001" data-name="Group 3001" transform="translate(0 49)">
+        <g id="Group_2820" data-name="Group 2820" transform="translate(0 0)">
+          <text id="Medium_" data-name="Medium " transform="translate(16.432 10)" fill="gray" font-size="11" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Medium </tspan></text>
+          <circle id="Ellipse_455-2" data-name="Ellipse 455" cx="4.5" cy="4.5" r="4.5" transform="translate(0.432 3)" fill="#43d4af"/>
+        </g>
+        <text id="_500" data-name="500" transform="translate(15.432 31)" fill="#302f2f" font-size="14" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">500</tspan></text>
+      </g>
+      <g id="Group_3002" data-name="Group 3002" transform="translate(0 98)">
+        <g id="Group_2821" data-name="Group 2821" transform="translate(0 0)">
+          <text id="low_" data-name="low " transform="translate(16.432 10)" fill="gray" font-size="11" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Low </tspan></text>
+          <ellipse id="Ellipse_455-3" data-name="Ellipse 455" cx="4.5" cy="4" rx="4.5" ry="4" transform="translate(0.432 3)" fill="#26b3ff"/>
+        </g>
+        <text id="_4000" data-name="4000" transform="translate(14.432 28)" fill="#302f2f" font-size="14" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">4000</tspan></text>
+      </g>
+      <g id="Group_3004" data-name="Group 3004" transform="translate(0 143)">
+        <g id="Group_3003" data-name="Group 3003" transform="translate(0 0)">
+          <g id="Group_2821-2" data-name="Group 2821" transform="translate(0 0)">
+            <text id="Unclassified" transform="translate(16.432 10)" fill="gray" font-size="11" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Unclassified</tspan></text>
+            <ellipse id="Ellipse_455-4" data-name="Ellipse 455" cx="4.5" cy="4" rx="4.5" ry="4" transform="translate(0.432 4)" fill="#a19c14"/>
+          </g>
+        </g>
+        <text id="_400" data-name="400" transform="translate(15.432 31)" fill="#302f2f" font-size="14" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">400</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+.flyers{
+    width: 100%;
+    /* background: white; */
+    height: 90vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flyer_container{
+    width: 120%;
+    position: relative;
+    margin-left: -10%;
+}
+
+.cut_option{
+    position: absolute;
+    top: -9px;
+    right: -9px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: white;
+    padding: 8px;
+    cursor: pointer;
+}
+
+
+.cut_option img{
+    width: 90%;
+    height: 90%;
+}
+
+@media only screen and (max-width : 768px){
+    .flyer_container{
+        width: 140% ;
+        margin-left: -20%;
+    }
+}

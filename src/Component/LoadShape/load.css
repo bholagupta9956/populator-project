@@ -1,0 +1,40 @@
+.load{
+    width: 75%;
+    background: white;
+ 
+    margin: auto;
+    position: relative;
+  
+}
+
+.load h5{
+    width: 100%;
+    background: var(--blue);
+    color: white;
+    font-size: 15px;
+    padding: 6px 12px;
+}
+
+.load_container{
+    width: 94%;
+    margin: auto;
+    
+    margin-top: 10px;
+}
+
+.loadShape{
+    width: 100%;
+}
+
+.loadShape h4{
+    color: var(--gray);
+}
+.loadCatchment{
+    margin-top: 15px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.loadCatchment h4{
+    color: var(--gray);
+}

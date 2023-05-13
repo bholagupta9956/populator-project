@@ -1,0 +1,195 @@
+/* here purchasepoints component css will be maintained
+ */
+
+ .purchasepoints{
+     z-index: 1010 !important;
+     width: 90%;
+     
+    position: relative;
+    height: 100%;
+     padding: 30px 30px;
+     box-shadow: var(--boxshadow);
+     border-radius: 6px;
+ }
+
+ .purchasepoints::after{
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     background: white;
+     width: 100%;
+     height: 100%;
+     opacity: 0.8;
+     z-index: 1010;
+     border-radius: 6px;
+ }
+
+ .purchasepoints_heading {
+     color: black;
+     font-size: 18px;
+     width: 100%;
+     text-align: center;
+     position: sticky;
+     z-index: 1011 !important;
+     margin-bottom: 31px;
+ }
+
+ .purchasepoints_box{
+    width: 94%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   
+ }
+
+ .purchasepoints_box label{
+     box-shadow: var(--boxshadow);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-width: 170px ;
+     margin-top: 14px;
+     width:47.5% ;
+     height: 75px;
+     position: relative;
+     border-radius: 4px;
+     background: white;
+     z-index: 1011;
+ }
+
+
+
+ .purchasepoints_box label input{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 11px !important;
+    height: 11px !important;
+    border-radius: 50%;
+    color: var(--blue) !important;
+ }
+
+.purchasepoints_box label h6 {
+    color: var(--blue);
+    font-size: 17px;
+    margin-bottom: -3px;
+}
+
+.purchasepoints_total{
+    width: 94%;
+    margin: auto;
+    position: sticky;
+    z-index: 1011;
+    display: flex;
+    margin-top: 14px;
+    background: white;
+    box-shadow: var(--boxshadow);
+    display: flex;
+    align-items: center;
+    height: 45px;
+    border-radius: 2px;
+}
+
+.purchasepoints_total h5:first-child{
+    width: 35%;
+    text-align: center;
+    line-height:33px;
+    font-size: 16px;
+    color: var(--grey);
+    height: 45px;
+    line-height: 45px;
+   margin-bottom: -3px;
+   
+}
+
+.purchasepoints_total h5:last-child{
+    width: 65%;
+    padding-left: 19px;
+    border-left: 1px solid rgb(197, 185, 185 , 0.5);
+    font-size: 16px;
+    color: var(--grey);
+    height: 45px;
+    line-height: 45px;
+   margin-bottom: -3px;
+}
+
+.purchasepoints_cost{
+    width: 93%;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 22px;
+    position: sticky;
+    z-index: 1011;
+    display: flex;
+   align-items: flex-start;
+}
+
+.purchasepoints_cost div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.purchasepoints_cost_div{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+   
+}
+.purchasepoints_cost_div1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.pointss{
+    text-align: right;
+}
+
+.purchasepoints_cost h6{
+    width: 100%;
+  
+    color: var(--grey);
+    font-size: 13px;
+}
+
+.purchasepoints_btn{
+    display: block;
+    width: 60%;
+    margin: auto;
+    background: var(--blue);
+    color: white;
+    font-size: 13.5px;
+    position: sticky;
+    z-index: 1011;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin-top: 17px;
+    padding: 9px ;
+    margin-bottom: 9px;
+}
+
+.purchasepoints_cut{
+    position: absolute;
+    top: -9px;
+    right: -9px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: white;
+    z-index: 1011;
+    box-shadow: var(--boxshadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer !important;
+}
+
+.purchasepoints_cut img{
+    width: 90%;
+    padding: 8px;
+}

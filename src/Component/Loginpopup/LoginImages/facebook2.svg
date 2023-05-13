@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="131.428" height="133.121" viewBox="0 0 131.428 133.121">
+  <defs>
+    <filter id="Ellipse_312" x="0" y="0" width="131.428" height="133.121" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_4022" data-name="Group 4022" transform="translate(9 6)">
+    <g id="Group_2595" data-name="Group 2595" transform="translate(0 0)">
+      <g id="Group_1058" data-name="Group 1058" transform="translate(0 0)">
+        <g id="Group_895" data-name="Group 895">
+          <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Ellipse_312)">
+            <g id="Ellipse_312-2" data-name="Ellipse 312" transform="translate(9 6)" fill="#fff" stroke="#707070" stroke-width="1">
+              <ellipse cx="56.714" cy="57.56" rx="56.714" ry="57.56" stroke="none"/>
+              <ellipse cx="56.714" cy="57.56" rx="56.214" ry="57.06" fill="none"/>
+            </g>
+          </g>
+          <g id="facebook" transform="translate(0 0)">
+            <ellipse id="Ellipse_315" data-name="Ellipse 315" cx="56.714" cy="57.56" rx="56.714" ry="57.56" fill="#3b5998"/>
+            <path id="Path_314" data-name="Path 314" d="M70.653,58.8H60.5V95.986H45.126V58.8H37.812V45.736h7.314V37.279c0-6.047,2.872-15.516,15.514-15.516l11.391.048V34.5H63.766c-1.356,0-3.262.677-3.262,3.562v7.691H72Z" transform="translate(0.791 0.984)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

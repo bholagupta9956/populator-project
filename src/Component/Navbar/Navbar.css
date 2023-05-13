@@ -1,0 +1,356 @@
+/* here all the css of navbar will be added  */
+
+:root{
+    --grey : rgb(88 ,89 ,91);
+    --blue : rgb(0,161,228);
+    --boxshadow : 0.5px 0.5px 3px rgb(214, 206, 206) ;
+    --black : rgb(48,48,48);
+    --border :0.2px solid rgb(102, 100,100,0.5)
+}
+.navbars{
+    z-index: 1010;
+    padding: 0px 0px;
+    width: 100vw;
+    position: absolute;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    
+}
+
+.navbar_container1{
+    width: 100%;
+    height: 65px;
+    margin-top: -23%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(48,48,48,0.25) ;
+}
+
+.navbar_container_left{
+   display: flex;                                  
+   justify-content: center;
+   align-items: center;
+}
+
+.navbar_container_left_col1{
+    background: var(--black);
+    padding: 11px 16px;
+}
+.navbar_container_left_col2{
+    margin: 0px 18px;
+    background: white;
+    border:var(--grey);
+
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 3px ;
+}
+
+.navbar_container_left_col2 input::placeholder{
+   color: rgb(88 ,89 ,91 ,0.5);
+   font-size: 15px;
+   font-weight: 500;
+}
+.navbar_container_left_col2 input{    
+    width: 230px;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    color: var(--black);
+    font-size:14px;
+    padding-right: 8px !important;
+    margin-right: 1px;
+    padding: 13.7px 12px;
+    padding-top: 17px !important;
+}
+
+.navbar_container_left_col2_search{
+    width: 18px;
+    margin-right: 18px;
+    cursor: pointer;
+}
+
+.navbar_container_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.navbar_right_col3_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--blue);
+    color: white;
+    padding: 4px 16px;
+    margin: 0px 62px 0px 0px;
+    margin-left: -3px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 14px;
+}
+
+.navbar_right_col3_login img{
+    width: 20px;
+    padding: 2px;
+    margin-right: 3px;
+}
+.navbar_right_col3_login h6{
+    font-size: 13px;
+    padding: 2px 3px;
+    font-weight: 400;
+    padding-top: 8px !important;
+}
+
+
+/* adding css to the drop down menu */
+
+.dropdown-toggle::after {display: none;}
+
+.dropdown{
+    margin: 0px 5px;
+    padding: 0;
+    width: 100%;
+    outline: none;
+    margin-right: 50px;
+}
+.navbar_dropdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.navbar_dropdown img:first-child{
+    border-radius: 50%;
+    border: 2px solid rgb(59, 58, 58 , 0.4);
+}
+
+.dropdownarrow{
+    padding: 0px;
+}
+
+.btn-success {
+    color: white;
+    background: transparent;
+    border: none;
+    padding: 0px 0px;
+    margin: 0px 16px;
+}
+
+.btn-success:hover{
+    background: transparent !important ;
+    border: none !important;
+    /* border: 2px solid green; */
+    box-shadow: none !important;
+}
+.btn-success:active{
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.show>.btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: transparent; 
+     border-color: transparent; 
+     box-shadow: none !important;
+}
+
+.btn-success:focus {
+    background:transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* adding css to the double arrow  */
+
+.navbar_right_col4{
+    margin: 0px 18px 0px 2px;
+    cursor: pointer;
+}
+
+.navbar_right_col4 img{
+   background: rgb(146, 141, 141 , 0.3);
+   padding: 5px;
+}
+
+
+/* here we are giving css to open close icon of  the navbar  */
+
+.openclosenavbar{
+    width: 23px;
+    z-index: 1001;
+    position: absolute;
+    top: 6px;
+    right: 7px;
+    cursor: pointer;
+}
+.openclosenavbar img{
+    width: 100%;
+}
+
+/* =========================
+adding css to the layerdropdown component 
+========================
+*/
+.dropdown-item{
+    color: #0078A8;
+    display: flex;
+    align-items: center;
+}
+.dropdown-item label{
+    display: inline-block;
+    margin-bottom: 0.12rem;
+    font-size: 14px;
+    padding-left: 11px;
+}
+
+.dropdown-item input{
+    margin-left: -6px;
+}
+
+
+
+/* Adding bouncing css for the icons so that it would bounce on the screen  */
+
+.bounce {
+    position: relative;
+    top: 10px;
+    animation: alternate;
+    animation-name: bouncing;
+    animation-duration: 3s;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+  }
+  
+@keyframes bouncing{
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-10px);
+    }
+    75%{
+        transform: translateY((20px));
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+
+/* giving css to the searchbar */
+.navbar_container_search{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar_container_autocomplete{
+    position: absolute;
+    top: 59px;
+    left: 238px;
+    background: white;
+}
+
+
+.pac-container{
+   z-index: 1012;
+   width: 270px !important;
+   margin-left: -3px ;
+   margin-top: 3px ;
+   box-shadow: 2px 2px 2px grey ,inset 0px 0px 0px grey ;
+   border-bottom-right-radius: 5px ;
+   border-bottom-left-radius: 5px ;
+}
+
+.pac-item {
+ width: 100% ;
+ padding: 6px 6px ;
+ border: none ; 
+ font-size:   14px ;
+}
+
+.pac-icon{
+    background-image: url("./NavbarImages/layers.svg") ;
+    width: 14px  ;
+    background-size: cover ;
+    background-position:  center;
+    background-repeat: no-repeat;
+    margin-left: 8px ;
+    margin-right: 12px ;
+}
+.pac-logo:after{
+   display: none ;
+}
+
+/* writing the code for the search bar below 640px  */
+
+@media only screen and (max-width : 768px){
+    .navbar_container_left_col2 input{
+       width:  155px;
+    }
+    .navbar_container_left_col1 img{
+        width: 130px;
+    }
+    .navbar_container_left_col1{
+        padding:15px  ;
+    }
+    .navbar_container_left_col2_search{
+        margin-right: 8px;
+    }
+    .navbar_container_left_col2{
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+    .pac-container{
+        width: 203px !important;
+    }
+}
+
+/* adding css to the spinner  */
+
+.spinner {
+   animation-name: rotate-spinner;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+  }
+  
+  button.loading .spinner {
+    opacity: 1;
+    transition-delay: 250ms;
+  }
+  
+  @keyframes rotate-spinner {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* here we are adding the css to the navbar languages ; */
+
+  .navbar_language{
+      margin-right: 8px;
+  }
+
+  .navbar_language .language{
+      width: 150px;
+  }
+
+  .navbar_language .language_name {
+    border: none;
+  }
+
+  .navbar_language .language_dropdown{
+      width: 160px;
+     margin: 5px 8px;
+  }
+
+  .navbar_language .language_menu{
+     margin-left: 0% !important;
+     width: 175px !important;
+  }

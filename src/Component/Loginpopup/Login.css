@@ -1,0 +1,1145 @@
+/* here we are going to define the css of the login popup  */
+
+
+.modal-content{
+ 
+ margin: auto;
+ border-radius: 12px !important;
+ border: none !important;
+ outline: none !important;
+ background: none !important;
+
+}
+/* .login_modal_container{
+    position: relative;
+} */
+
+.login_cut_icon{
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: var(--boxshadow);
+}
+
+.login_cut_icon img{
+    width: 100%;
+    padding: 10px;
+}
+
+.login_modal_small_container{
+    width: 87%;
+    margin: auto;   
+    background: white;
+    border-radius: 6px;
+    position: relative;
+}
+
+.modal_small_container1{
+    width: 100%;
+    background:var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -4px;
+    margin-bottom: 15px;
+}
+
+.modal_small_container1 img{
+    width: 180px ;
+    padding: 0px 9px ;
+    margin: 6px 0px ;
+}
+
+.login_modal_small_container h6{
+    text-align : center ;
+    padding : 18px 9px 14px 9px ;
+    font-size: 16.5px;
+    font-weight: 500;
+    color: var(--black);
+}
+.modal_small_container2{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.modal_small_container2_col1 , .modal_small_container2_col2{
+   flex-basis: 40%;
+   cursor: pointer;
+}
+
+
+.modal_small_container2_col1 h5  {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    padding: 12px ;
+    border-radius: 4px;
+    margin-bottom: -6px;
+}
+
+.modal_small_container2_col2 h5{
+    font-size: 15px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: -6px;
+  
+}
+
+.modal_small_container3{
+  width: 85%;
+  margin: auto;
+  margin-top: 7px;
+ 
+ 
+}
+/* from here we are going to desing the login.jsx file  */
+
+.popup_login{
+    width: 88%;
+    margin: auto;
+}
+
+.popup_login_row1{
+    width: 100%;
+}
+
+
+.popup_login_row1_col1 , .popup_login_row1_col2{
+    width: 100%;
+    margin: 14px 0px;
+    border:var(--border);
+    border-radius: 3px;
+}
+
+.login_password{
+    width: 75%  !important;
+}
+
+.login_password_img{
+    width: 20px;
+    cursor: pointer;
+    height: 20px;
+    margin-left: 6px !important;
+    margin-right: 0px  !important;
+}
+
+.popup_login_row1_col1 img , .popup_login_row1_col2 img{
+    padding: 1px;
+    margin: 8px 8px 8px 12px;
+}
+
+
+.popup_login_row1_col1 input , .popup_login_row1_col2 input{
+    outline: none;
+    border: none;
+    margin-left: 8px;
+    width: 80%;
+    padding: 12px 4px;
+    
+}
+.popup_login_row1_col1 input::placeholder , .popup_login_row1_col2 input::placeholder{
+    font-size: 15px;
+ color: var(--grey);
+}
+
+.popup_login_submit{
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    background: rgb(0,161 ,228);
+    padding: 14.7px 0px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    margin: 7px 0px;
+    margin-bottom: -8px;
+    letter-spacing: 0.03em;
+}
+
+/* adding css to the forget password part */
+
+.popup_login_row1_col2_5{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.loginviaotp:hover{
+    color: var(--blue);
+}
+
+.popup_login_row1_col2_5 h6:last-child{
+    color: var(--blue);
+}
+
+.popup_login_row1_col2_5 h6{
+    font-size: 13.6px;
+    cursor:  pointer;
+    margin-bottom: 0px;
+}
+.popup_login_row1_col3 {
+   display: flex;
+   width: 100%;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.popup_login_row1_col3 hr{
+   background: rgb(110, 105, 105 ,0.2);
+   height: 1px;
+   flex-basis: 40%;
+}
+
+.popup_login_row1_col3 span{
+    color: rgb(110, 105, 105 ,0.3);
+    font-size: 14px;
+}
+
+.popup_login_row1_col4{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 6px 12px;
+    margin-top: 15px;
+    margin-bottom: 28px;
+   
+}
+
+.popup_login_row1_col4 img{
+    padding: 0px;
+    border-radius: 50%;
+   
+}
+
+
+/* adding css to the signup page of the website */
+
+.popup_signup{
+    width: 96%;
+    margin: auto;
+}
+
+.popup_signup input{
+    width: 100%;
+    padding: 9px 6px;
+    padding-left: 12px !important;
+    outline: none;
+    margin: 5px auto;
+    border-radius: 3px;
+    border: var(--border);
+}
+.popup_signup input::placeholder{
+    font-size: 15px;
+    color: var(--grey);
+}
+
+.popup_signup_row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.signUp_password{
+    width: 100%;
+    border-radius: 3px;
+    display: flex;
+    margin: 5px auto;
+    align-items: center;
+    justify-content: space-between;
+    border: var(--border);
+}
+.signUp_password img{
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.signUp_passwword_input{
+    padding: 12px 4px !important;
+    height: 100%;
+    margin: 0px !important;
+    width:90% !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.popup_signup_row1_col1{    flex-basis: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: var(--border);
+    padding: 5.3px 8px;
+    border-radius: 3px;
+}
+.popup_signup_row1_col1 span{
+    font-size: 17px;
+    padding-right: 12px;
+    padding: 3.8px 0px;
+   color: var(--grey);
+}
+
+.popup_signup_row1_col2 {
+    width: 60%;
+}
+
+.popup_signup_row1_col2 input{
+   padding: 9px 18px;
+}
+
+.popup_signup_row2{
+    display: flex;
+    justify-content: space-around;
+    margin: 6px 0px;
+}
+
+.popup_signup_row2 h6{
+   padding-left:0px !important;
+    font-size: 13px;
+    color:  rgb(87, 85, 85)
+}
+
+.popup_signup_row2{
+    margin: 3px 2px;
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+    margin: 0px 4px;
+}
+
+.popup_signup_row2 label{
+width: 45px ;
+height: 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 8px 9px;
+border-radius: 4px;
+border: 1px solid grey;
+position: relative;
+margin-bottom: 1.3px;
+}
+
+.popup_signup_row2_col1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 16px 0px;
+}
+
+.popup_signup_row2 label input{
+    position: absolute;
+    top: -3px ;
+    right: 2.5px;
+    width: 8px ;
+    height: 8px;
+   margin-left: 5px;
+  
+}
+
+.popup_signup_row2_col1 span{
+    font-size: 11.6px;
+    color: var(--black);
+    font-weight: 500;
+}
+
+/* from here we are going to design the verification page ; */
+.verification{
+    width: 82%;
+    margin: auto;
+    background: white;
+    position: relative;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.verification_container1{
+    width: 100%;
+    background:var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -4px;
+    margin-bottom: 15px;
+}
+
+.verification_container1 img{
+    width: 180px ;
+    padding: 0px 9px ;
+    margin: 6px 0px ;
+}
+
+
+.verification_lock{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 23px auto;
+}
+
+.verification_lock img{
+   width: 32%;
+    padding: 8px;
+}
+.verification_row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.verification_row1 h5{
+    font-weight: 500;
+    color: rgb(68, 66, 66,0.9);
+    font-size: 22px;
+    padding: 2px ;
+    letter-spacing: 0.09em;
+}
+.verification_row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.verification_row2 span{
+    font-size: 13.5px;
+    font-weight: 500;
+    color: rgb(68, 66, 66,0.9);
+    margin: 2px 0px;
+    letter-spacing: 0.07em;
+    margin-bottom: 15px;
+}
+
+.verification_row3 {
+    width: 65%;
+    margin: 6px auto;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.verification_row3 input{
+    
+    width: 44px;
+    height: 44px;
+    border: var(--border);
+    text-align: center;
+    outline: none;
+}
+
+.verification_row4{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px auto;
+}
+
+.verification_row4 span{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(68, 66, 66,0.75);
+    letter-spacing: 0.07em;
+    margin-bottom: 14px;
+}
+
+.verification_row4 span:last-child{
+    margin-left: 11px;
+    color: var(--blue);
+}
+
+.verification_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 17px 0px;
+    margin-bottom: 36px !important;
+}
+
+.verification_btn button{
+    background: var(--blue);
+    width: 78%;
+    padding: 13.5px 12px;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px ;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+}
+
+/* adding css to the verification cut icon  */
+
+.verification_cut_icon{
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: var(--boxshadow);
+}
+
+.verification_cut_icon img{
+    width: 100%;
+    padding: 10px;
+}
+.signUp_error_content{
+    color: red;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+/* adding css to the forgot password component  */
+
+.forgotPassword_container{
+    width: 83%;
+    margin: auto;
+    background: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+}
+
+.forgotPassword_logo{
+    width: 100%;
+    background:var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -4px;
+    margin-bottom: 15px;
+}
+.forgotPassword_logo img{
+    width: 180px ;
+    padding: 0px 9px ;
+    margin: 6px 0px ;
+}
+
+.forgotPassword_mainImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 27px 0;
+}
+
+.forgotPassword_mainImg img{
+    width: 45%;
+}
+
+.forgotPassword_mainImg span{
+    padding-top: 8px;
+    font-weight: 600;
+}
+
+.forgotPassword_email{
+   width: 70%;
+   margin: auto;
+   margin-top: 5px ;
+   margin-bottom:  10px;
+}
+
+.forgotPassword_email input{
+    width: 100%;
+    font-size: 13px;
+    padding: 12px ;
+    border-radius: 3px;
+    font-weight: 500;
+    outline: none;
+    border: 2px solid rgb(204, 198, 198 , 0.6);
+}
+
+.forgotPassword_suggestion{
+ width: 100%;
+ text-align: center;
+font-size: 12px;
+color: var(--grey);
+margin: 6px 0px 12px 0px;
+}
+
+.forgotPassword_link{
+    display: block;
+    width: 70%;
+    margin: auto;
+    background: var(--blue);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+    margin: 32px auto;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 39px !important;
+}
+
+.forgotPassword_cut{
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--boxshadow);
+    cursor: pointer;
+}
+
+.forgotPassword_cut img{
+    width: 100%;
+    padding: 10px;
+}
+
+
+/* adding css to the changepassword component */
+
+.changePassword_container{
+    width: 90% !important;
+    margin: auto;
+    background: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+}
+
+
+.changePassword_logo{
+    width: 100%;
+    background:var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -4px;
+    margin-bottom: 15px;
+}
+
+.changePassword_logo img{
+    width: 180px ;
+    padding: 0px 9px ;
+    margin: 6px 0px ;
+}
+.changePassword_mainImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 27px 0;
+}
+
+.changePassword_mainImg img{
+    width: 33%;
+    margin-left: 7%;
+}
+
+.changePassword_mainImg span{
+    margin-top: -15px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.changePassword_new1{
+    width:  70%;
+    margin: auto;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(204, 198, 198 , 0.6);
+    border-radius: 3px;
+}
+
+.changePassword_new2{
+    width:  70%;
+    margin: auto;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(204, 198, 198 , 0.6);
+    border-radius: 3px;
+}
+
+
+.changePassword_new_col1{
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.changePassword_new_col2{
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.changePassword_new_col1 img{
+    width: 13px;
+    margin: auto;
+    text-align: center;
+}
+.changePassword_new_col2 img{
+    width: 13px;
+    margin: auto;
+    text-align: center;
+}
+.changePassword_new_col1 input{
+    border: none;
+    outline: none;
+    width: 85%;
+    padding: 15px 0px;
+    font-size: 12.5px;
+    color: var(--black);  
+}
+.changePassword_new_col2 input{
+    border: none;
+    outline: none;
+    width: 85%;
+    padding: 15px 0px;
+    font-size: 12.5px;
+    color: var(--black);  
+}
+
+.changePassword_eyeIcon1{
+    width: 18px ;
+    margin: auto;
+}
+
+.changePassword_eyeIcon2{
+    width: 18px;
+    margin: auto;
+}
+
+
+
+/* adding style to the earned points screen */
+
+.earnedPoints{
+    width: 100%;
+    background: white;
+    border-radius: 8px;
+    position: relative ;
+}
+
+.earnedPoints_img{
+    width: 28%;
+    margin: auto;
+    margin-top: 46px ;
+    margin-bottom: 16px;
+}
+.earnedPoints_img img{
+    width: 100%;
+    padding: 10px;
+
+}
+
+.earnedPoints_heading{
+    width: 100%;
+    color: rgb(134, 5, 5);
+    text-align: center;
+    margin-bottom: 13px;
+    font-size: 26px;
+}
+
+.earnedPoints_text{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.earnedPoints_card{
+    width: 100%;
+    margin-bottom: 34px;
+    
+}
+
+/* adding css to the card which will slide   */
+.carousel_container{
+    width: 94% !important;
+    margin: auto;
+    
+    
+}
+
+.carousel_container button.sc-bdfBQB.khvUfi.rec.rec-arrow.rec.rec-arrow-left , .carousel_container button.sc-bdfBQB.eRmJbc.rec.rec-arrow.rec.rec-arrow-left{
+    transform: scale(0.6);
+    position: absolute;
+    left: 0.6%;
+    z-index: 5;
+}
+
+.carousel_container button.sc-bdfBQB.eRmJbc.rec.rec-arrow.rec.rec-arrow-right , .carousel_container button.sc-bdfBQB.khvUfi.rec.rec-arrow.rec.rec-arrow-right{
+    transform: scale(0.6);
+    position: absolute;
+    right: 0.1%;
+    z-index: 5;
+}
+.carousel_item{
+   margin: 5px 14px;
+   box-shadow: var(--boxshadow);
+   padding: 13px 14px;
+   padding-top: 16px  !important;
+   border-radius: 3px;
+   margin-bottom: 25px ;
+    
+   width: 90%;
+  
+}
+
+.carousel_item span{
+    color: var(--blue);
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.carousel_item p{
+    font-size: 13px;
+    color: var(--gray);
+    margin-top: 9px;
+}
+
+.cGKbZh {
+    display: none !important;}
+
+    .ehkxHv:disabled {
+        cursor: not-allowed;
+        display: none !important;
+    }
+
+    .earnedPoint_cut{
+        position: absolute;
+        top: -9px;
+        right: -9px;
+        width: 32px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background : white;
+        box-shadow: var(--boxshadow);
+        cursor: pointer;
+    }
+    
+    .earnedPoint_cut img{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .jLgnwX {
+        width: 7.5px !important;
+        height: 8px !important;
+        border-radius: 50% !important;
+    }
+
+    .ejXxNI {
+        box-sizing: border-box;
+        padding: 0;
+        -webkit-transition: all 250ms ease;
+        transition: all 250ms ease;
+        border: none;
+        margin: 5px;
+        background-color: var(--blue) !important;
+        font-size: 1.3em;
+        content: "";
+        height: 8px !important;
+        width: 7px !important;
+        box-shadow: 0 0 1px 3px rgb(105, 105, 233) !important;
+        border-radius: 50% !important;
+        outline: none;
+    }
+
+    /* here we are going to style the loginby otp screenj */
+
+.loginbyotp_container{
+    width: 84%;
+    margin: auto ;
+    background: white;
+    border-radius: 6px;
+    position: relative;
+}
+
+.loginbyotp_container_logo{
+    width: 100%;
+    background:var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -4px;
+    margin-bottom: 15px;
+}
+
+.loginbyotp_container_logo img{
+    width: 180px ;
+    padding: 0px 9px ;
+    margin: 6px 0px ;
+}
+
+.loginbyotp_heading{
+    text-align: center;
+    margin: 35px ;
+    font-size: 19px;
+    color: var(--black);
+}
+.loginbyotp_number{
+    width: 76%;
+    margin: auto;
+}
+
+.loginbyotp_number .mobile{
+    font-size: 14.5px;
+    margin-bottom: 4px;
+}
+
+.loginbyotp_number_input{
+    border: var(--border);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.loginbyotp_country{
+    width : 25% ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    border-right: 1px solid rgb(201, 198, 198);
+    
+}
+
+
+
+.loginbyotp_country span{
+    font-size: 15px;
+    color: var(--grey);
+}
+
+.loginbyotp_number_input input{
+    width: 70%;
+    padding: 9px 0px;
+    outline: none;
+    border: none;
+}
+
+.loginbyotp_btn{
+    width: 76%;
+    margin: auto;
+    padding: 12px;
+    text-align: center;
+    display: block;
+    background: var(--blue);
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 15px;
+    color: white;
+    margin: 14px auto;
+}
+
+.loginbyotp_sign{
+    width: 76%;
+    margin: auto;
+    display: flex;
+   padding-left: 2px;
+}
+
+.loginbyotp_sign h4{
+    font-size: 14px;
+    margin-right: 11px;
+    cursor: pointer;
+}
+
+.loginbyotp_submit{
+    width: 76%;
+    margin:35px auto;
+    border: 1px solid var(--blue);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 57px;
+}
+
+.loginbyotp_submit h5{
+    font-size: 14.5px;
+    color: var(--blue);
+    padding: 15px;
+    margin-bottom: -1.5px;
+}
+
+.loginbyotp_cut{
+    position: absolute;
+    top: -9px;
+    right: -9px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: var(--boxshadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor : pointer ;
+}
+
+.loginbyotp_cut img{
+    width: 94%;
+    padding: 9px;
+}
+
+
+/* adding media query to the login part ; */
+@media only screen and (width : 1024px){
+    
+    /* .modal-content{
+        margin-top: 60px !important;
+    } */
+}
+
+.box_container {
+    width: 35%;
+    position: relative;
+}
+
+.hiddenBoxContainer {  
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    border-bottom:  1px solid grey;
+    align-items: space-between;
+    width: 100%;
+    background: white;
+    z-index: 1010 !important;
+    width: 1;
+    cursor: pointer;
+}
+
+.hiddenBox {
+
+}
+
+
+/* here we are giving css to the country code component */
+
+.countryCode {
+    background: white;
+    height: 400px;
+    width: 50%;
+    position: relative;
+    margin: auto;
+    border-radius: 5px;
+    padding: 15px 12px;
+    border: 2px solid rgb(204, 202, 202);
+}
+
+.countrySearch {
+    width: 100%;
+   border: 2px solid grey;
+   border-radius: 4px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.countrySearch input{
+    outline: none;
+    border: none;
+    padding: 6px 4px;
+}
+
+.countrySearch img{
+    width: 20px;
+    margin-right: 5px;
+}
+.countrySelect{
+    margin: 8px 2px;
+    /* border: 2px solid grey; */
+}
+
+.countryOptions {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 7px 2px;
+    border-bottom: 2px solid rgb(226, 226, 226);
+}
+
+.countryOptions img{
+    width: 35px;
+    margin-right: 8px;
+}
+
+.countryOptions h6{
+    margin-bottom: -1px;
+}
+
+.countryOptions span{
+    margin-left: 6px;
+}
+
+.country_code_cut{
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+.earnedPoints button.sc-jrAFXE.ceUiKL.rec.rec-arrow.rec.rec-arrow-right {
+    transform: scale(0.7);
+}
+.earnedPoints button.sc-jrAFXE.ceUiKL.rec.rec-arrow.rec.rec-arrow-left {
+    transform: scale(0.7);
+}
+
+.earnedPoints button.sc-jrAFXE.bGvAUh.rec.rec-arrow.rec.rec-arrow-right {
+    transform: scale(0.7);
+}
+
+.earnedPoints button.sc-jrAFXE.bGvAUh.rec.rec-arrow.rec.rec-arrow-left {
+    transform: scale(0.7);
+}
+
+.earnedPoint button.sc-jrAFXE.dBkNpW.rec.rec-arrow.rec.rec-arrow-left{
+    transform: scale(0.7);
+}
+
+.earnedPoints button.sc-jrAFXE.dBioqg.rec.rec-arrow.rec.rec-arrow-left {
+    transform: scale(0.7);
+}
+.earnedPoints button.sc-jrAFXE.dBioqg.rec.rec-arrow.rec.rec-arrow-right {
+    transform: scale(0.7);
+}
+
+.earnedPoints button.sc-jrAFXE.dBioqg.rec.rec-arrow.rec.rec-arrow-right {
+    transform: scale(0.7);
+}

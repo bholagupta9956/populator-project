@@ -1,0 +1,387 @@
+.compare {
+  background-color: white;
+  width: 140%;
+  height: 630px;
+  align-self:  center;
+  border-radius: 6px;
+  position: relative;
+}
+
+.cmpre_part {
+  margin-top: 15px;
+  width: 100%;
+  height: 550px;
+  overflow-y: scroll;
+  padding: 10px 20px ;
+}
+
+.cmpre_part::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.cmpre_part::-webkit-scrollbar-thumb {
+  background: var(--blue);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.cmpre_part::-webkit-scrollbar-thumb:hover {
+  background: var(--blue);
+}
+.cmpre_part::-webkit-scrollbar {
+  width: 6px;
+  height: 8px !important;
+}
+
+.comparison {
+  width: 48.5%;
+  height: 550px;
+  border-radius: 6px;
+  
+}
+
+.cmpre_box {
+  width: 100%;
+  display: flex; 
+  flex-direction:  row;
+  justify-content: space-between;
+}
+
+.compare_btn {
+  padding: 5px 17px;
+  background-color: var(--blue);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  margin-top: 45px ;
+  margin-left: 22px;
+  margin-bottom: -20px;
+}
+
+.comparison_body {
+  width: 100%;
+  box-shadow: var(--boxshadow);
+  padding-bottom: 12px;
+  border-radius: 4px;
+  height: 96%;
+  overflow-x: hidden;
+}
+
+.comparison_main_box {
+  position: relative;
+  width: 100%;
+  padding: 16px 12px;
+  border-bottom: 2px solid rgb(206, 206, 206);
+  display: flex;
+}
+
+.comparison_box {
+  width: 60%;
+  height: 200px;
+  border-radius: 6px;
+}
+
+
+
+.comparison_input {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 20px;
+  height: 20px;
+  z-index: 1055 !important;
+}
+
+.comparison_body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.comparison_body::-webkit-scrollbar-thumb {
+  background: var(--blue);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.comparison_body::-webkit-scrollbar-thumb:hover {
+  background: var(--blue);
+}
+.comparison_body::-webkit-scrollbar {
+  width: 6px;
+  height: 8px !important;
+}
+.compBody::-webkit-scrollbar {
+  width: 6px;
+  height: 8px !important;
+}
+.compDetails {
+  width: 133%;
+  margin-left: -16.5%;
+  background: white;
+  height: 650px;
+  border-radius: 6px;
+  position: relative;
+  
+}
+
+.compheading {
+  width: 100%;
+  background: var(--blue);
+  padding: 8px 30px;
+}
+
+.compheading span {
+  color: white;
+  font-size: 14;
+}
+
+.compBody {
+  padding: 20px;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  height: 94%;
+}
+
+.compBody_box1 {
+  width: 230px !important;
+  height: 85%;
+}
+
+.compBody_box1_img {
+  width: 230px !important;
+  padding: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 160px;
+  margin-bottom: 15px;
+
+}
+
+.compBody_box1_img img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.compBody_box1_img h4 {
+  font-size: 22px;
+  color: var(--grey);
+}
+.compBody_box1_nm {
+  width: 100%;
+  background: #dcf5f4;
+}
+.compBody_box1_nam {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  width: 100%;
+  padding: 10px 5px;
+  border: 0.2px solid rgb(224, 224, 224);
+  
+}
+
+.compBody_box1_nam img {
+  width: 18px;
+  margin: 0px 8px;
+}
+
+.compBody_box1_nam span {
+  font-size: 14px;
+  margin-left: 9px;
+  color: var(--grey2);
+}
+
+
+
+.compBody::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+
+/* Handle */
+.compBody::-webkit-scrollbar-thumb {
+  background: var(--blue); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.compBody::-webkit-scrollbar-thumb:hover {
+  background: var(--blue); 
+}
+.compBody::-webkit-scrollbar {
+  width: 6px;
+  
+}
+
+.compBody_box2{
+ 
+}
+.mapdetails{
+  display: flex;
+  padding-bottom: 30px;
+  
+}
+
+.mapDetails_box{
+  width: 270px;
+}
+
+.mapDetails_box2{
+  width: 100%;
+  height: 160px;
+  margin-bottom: 15px;
+  border: 1px solid rgb(133, 132, 132);
+}
+.map_num{
+  width: 270px;
+  
+}
+.map_num_box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 46px;
+  height: 48px ;
+  border: 0.2px solid rgb(224, 224, 224);
+}
+
+.map_num_box h6{
+  color: var(--grey);
+  margin-bottom: -1px;
+}
+
+.comp_rht_box{
+  
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.comp_rht_box_ss {
+  display: flex;
+}
+
+.comp_rht_box_ss h6{
+  width: 50px ;
+}
+.comp_rht_box_ss span{
+  margin-left: 12px;
+  text-transform: capitalize;
+}
+
+
+/* here we are adding the comparison graph css */
+
+.comparisonGraph{
+  width: 270px;
+  margin-top: 30px;
+}
+
+/* here we are adding css to the main comprisonscreen  */
+
+
+
+.compare_box {
+  width : 200px ;
+  height : 160px ;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  align-items: center;
+}
+
+.compre_box_img{
+  width : 140px ;
+  justify-content: center;
+  height : 140px ;
+  display: flex;
+  align-items: center;
+  box-shadow : var(--boxshadow);
+  border-radius: 4px;
+}
+
+.compre_box_img img {
+  width: 70%;
+  height: 80%;
+}
+
+.compare_box h5{
+  font-size: 15px;
+  color: rgb(92, 90, 90);
+  margin-top: 12px;
+}
+
+.catchmnt_cmp{
+  width : 90% ;
+  min-height : 400px ;
+  background : white ;
+}
+
+.compre_heading {
+  position : absolute ;
+  top : 0 ;
+  left : 0 ;
+  width:  100%;
+  background: var(--blue);
+}
+
+.compre_heading  h6{
+  color: white;
+  text-align:  center;
+  padding: 6px 0px 2px 0px;
+  font-size:  16px;
+}
+
+.unsaved {
+  width: 80%;
+  margin-top: 15px;
+  box-shadow: var(--boxshadow);
+  margin-bottom: 20px;
+}
+
+.unsaved_heading {
+  width: 100%;
+  font-size: 16px ;
+  background: var(--blue);
+  padding: 6px 9px;
+  color: white;
+  margin-bottom: 8px;
+  border-radius: 2px;
+}
+
+.unsaved_box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 35px 5px 20px;
+  align-items: center;
+  border-bottom: 1px solid rgb(214, 213, 213);
+}
+
+.unsaved_box h6{
+  text-transform: capitalize;
+}
+
+.unsaved_box input {
+  height: 18px;
+  width: 18px ;
+  cursor: pointer;
+}
+
+.fist , .sec , .thrd{
+  width: 20%;
+}
+
+.remove_icon {
+  width: 19px;
+  cursor: pointer;
+}

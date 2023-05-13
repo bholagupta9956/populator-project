@@ -1,0 +1,126 @@
+/* here we are styling fileimporter component ; */
+
+.fileImporter{
+    width : 120%;
+    background: white;
+    border-radius: 6px;
+    margin-left: -10%;
+    padding: 33px 38px;
+    position: relative;
+}
+
+.fileImporter h5{
+    font-size: 23px;
+}
+
+.fileImporter_format{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+
+.fileImporter_format_col1{
+    width: 23%;
+    margin-top: 40px;
+    /* border-right: 1.5px solid  rgb(179, 170, 170 , 0.6);; */
+    position: relative;
+}
+
+.fileImporter_format_col3{
+    width: 23%;
+    margin-top: 40px;
+    /* border-right: 1.5px solid  rgb(179, 170, 170 , 0.6);; */
+    position: relative;
+}
+
+.fileImporter_format_col1::after{
+    position: absolute;
+    top: 0px ;
+    left: 133%;
+    content: "";
+    z-index: 1011;
+    width: 1px ;
+    height: 80%;
+    background: rgb(148, 144, 144 , 0.2);
+
+}
+
+.fileImporter_format_col1 h6{
+    text-align: center;
+    margin-top: 16px;
+}
+
+.fileImporter_format_col3 h6{
+    text-align: center;
+    margin-top: 16px;
+}
+
+
+.fileImporter_format_col1 img{
+    width: 100%;
+    border: 1.5px solid rgb(179, 170, 170 , 0.6);
+    padding: 19px;
+    height: 101px;
+    border-radius: 7px;
+}
+.fileImporter_format_col3 img{
+    width: 100%;
+    border: 1.5px solid rgb(179, 170, 170 , 0.6);
+    padding: 19px;
+    height: 101px;
+    border-radius: 7px;
+}
+
+.fileImporter_btn{
+    width: 27%;
+    display: block;
+    margin-left: auto;
+    margin-right: 4.2%;
+    margin-top: 25px;
+    background: var(--blue);
+    padding: 8px 14px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+
+.fileImporter_cut{
+    position: absolute;
+    top: -9px;
+    right: -9px;
+    background: white; 
+    border-radius: 50%;
+    box-shadow: var(--boxshadow);
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fileImporter_cut img{
+    width: 90%;
+    padding: 9px;
+}
+
+/* here we are giving css to the csv reader ; */
+.csv_reader{
+    z-index: 1011;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+}
+
+.csv_label_reader{
+    width: 110%;
+    height: 110%;
+    padding: 10px 7px;
+    color: transparent;
+}

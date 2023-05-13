@@ -1,0 +1,432 @@
+/* here we will write all the css related to the user profile */
+
+.userProfile{
+   width: 100%;
+    margin: auto;
+   background: white;
+   position: relative;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+}
+
+.userProfile_logo{
+    width: 100%;
+    background:var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -4px;
+    margin-bottom: 15px;
+}
+
+.userProfile_logo img{
+    width: 180px ;
+    padding: 0px 9px ;
+    margin: 4px 0px ;
+}
+
+.userProfile_user{
+   margin-top: 34px;
+   margin-left: 34px;
+   display: flex;
+   margin-bottom: 22px;
+   border-bottom: 2px solid rgba(216, 206, 206, 0.3);
+}
+
+.userProfile_user_img{
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.userProfile_user_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.userProfile_details{
+    padding: 10px 0px;
+    margin-bottom: 12px;
+}
+
+.userProfile_details_name h5{
+    font-size: 18px;
+    color: var(--black);
+    
+}
+
+.userProfile_details_files  input[type="file"] {
+    position: absolute;
+    z-index: -1;
+    top: 15px;
+    left: 20px;
+    font-size: 17px;
+    color: #b8b8b8;
+  }
+
+  .userProfile_details_files label{
+      font-size: 11px;
+      padding: 7px 14px;
+      color: white;
+      border-radius: 4px;
+      background: var(--blue);
+  }
+
+  .userProfile_details_files span{
+      font-size: 12px;
+      padding-left: 12px;
+  }
+
+  .userProfile_form{
+      margin-top: 17px;
+      margin-left: 32px;
+  }
+
+  .userProfile_form h5{
+      color: var(--grey);
+     font-size: 14px;
+     margin-bottom: 25px;
+  }
+
+  .userProfile_form_container{
+     
+  }
+
+  .userProfile_form_container_row1{
+      display: flex;
+      margin-bottom: 23px;
+      width: 100%;
+  }
+
+  .userProfile_form_container_row1_label{
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      margin-right: 40px;
+      
+  }
+
+  .userProfile_form_container_row1_label label{
+      font-size: 13px ;
+      font-weight: 500;
+      color: var(--grey);
+      margin-bottom: 4px;
+  }
+
+  .userProfile_form_container_row1_label input{
+      width: 100%;
+      border: 1px solid rgb(189, 174, 174 , 0.5);
+      outline: none;
+     font-size: 13px;
+     padding: 6px 10px;
+     border-radius: 3px;
+     text-transform: capitalize;
+  }
+
+  .userProfile_form_container_row2{
+      width: 100%;
+    display: flex;
+    margin-bottom: 23px;
+  }
+
+  .userProfile_form_container_row2_label{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.userProfile_form_container_row2_label label{
+    font-size: 13px ;
+    font-weight: 500;
+    color: var(--grey);
+    margin-bottom: 4px;
+}
+
+.userProfile_form_container_row2_label input{
+    border: 1px solid rgb(189, 174, 174 , 0.5);
+    outline: none;
+   font-size: 13px;
+   padding: 6px 10px;
+   border-radius: 3px;
+   
+}
+
+.userProfile_form_container_row2_label_country_code{
+
+    width: 38% ;
+    margin-top: -4px;
+    margin-right: 10%;
+}
+.userProfile_form_container_row2_label:last-child{
+   
+    display: flex;
+    flex-direction: row;
+
+}
+.userProfile_form_container_row2_label_country_code div{
+    border: 1px solid rgb(189, 174, 174 , 0.5);
+    width: 100%;
+    padding: 6px 16px;
+    font-size: 13px;
+    color: var(--grey);
+    border-radius: 3px;
+    outline: none;
+    margin-top: -1px;
+    
+    
+    -webkit-appearance: none;
+}
+.userProfile_form_container_row2_label_country_code select div{
+    border: 1px solid red;
+}
+
+.userProfile_form_container_row2_label_number{
+    width: 53%;
+    margin-top: -4px;
+}
+
+.userProfile_form_container_row2_label_number input{
+    padding: 7px ;
+    width: 100%;
+    margin-top: -1px;
+}
+
+/* styling the designation part  */
+
+.userProfile_designation{
+    width: 90%;
+    display: flex;
+    margin-left: 6.8%;
+    margin-bottom: 40px;
+}
+
+.userProfile_designation_box{
+    width: 11%;
+    margin-right: 7.5%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.userProfile_designation_box span{
+    font-size: 11px;
+    color: var(--grey);
+}
+
+.userProfile_designation_box label{
+ width: 100%;
+ box-shadow: var(--boxshadow);
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.userProfile_designation_box label input{
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+}
+
+.userProfile_designation_box label img{
+   width: 16px;
+}
+
+.userProfile_designation_box span{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.userProfile_button{
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   margin-top: 10px;
+   margin-bottom: 36px;
+}
+
+.userProfile_button button{
+    width: 30%;
+    font-size: 14px;
+    
+    outline: none;
+}
+
+.userProfile_button_cancel{
+    border: var(--border);
+    background: white;
+    border-radius: 4px;
+    color: var(--black);
+    font-size: 15px;
+    padding: 7px ;
+    font-weight: 500;
+}
+
+.userProfile_button_submit{
+    background: var(--blue);
+    border-radius: 4px;
+    color: white;
+    border: none;
+    padding: 8.5px;
+}
+
+/* adding css to the cut option */
+
+.userProfile_cut{
+    position:absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -9px;
+    right: -9px;
+    background: white;
+    box-shadow: var(--boxshadow);
+    border-radius: 50%;
+    cursor: pointer !important;
+}
+
+.userProfile_cut img{
+    width: 100%;
+    padding: 9px;
+}
+
+
+/* from here we are going to design the user component  */
+
+
+.user{
+    margin-right: 45px;
+}
+
+.navbar_right_col2{
+    padding: auto 12px;
+    display: flex;
+}
+
+.navbar_right_col2_left{
+    margin: auto 12px;
+}
+.navbar_right_col2_right{
+    margin-top: 14px;
+}
+.navbar_right_col2_right2{
+    display: flex;
+   
+}
+.navbar_right_col2_right1 span{
+    color: white;
+    font-size: 12px;
+    font-weight: 600; 
+    margin-bottom: -2px;   
+}
+.navbar_right_col2_right2 span{
+    color: white;
+ 
+    font-weight: 500;
+    font-size: 13px;
+}
+.user_Container{
+    position: relative;
+}
+
+
+.user_icon{
+    width: 42px;
+   
+    height: 66px;
+    margin-left: 15px;
+    cursor: pointer;
+    padding-top: 6px;
+    display: flex;
+    /* justify-content: center; */
+    transform: translateY(6px);
+    align-items: center;
+    height : 62px ;
+    flex-direction: column;
+}
+
+ .user_icon_img{
+     width: 80%;
+    
+     height : 58% ;
+     margin-bottom: 5%;
+     border-radius: 50%;
+ }
+
+ .user_icon_img img{
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+ }
+
+
+.user_icon_arrow{
+    transform: rotate(180deg);
+   margin-top: 3px;
+    width: 40% !important;
+  
+}
+
+
+/* styling to the user popup component  */
+
+.user_popup{
+    position: absolute;
+    top: 65px;
+    background: white;
+    right: 32px;
+    width: 220px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 8px;
+    /* display: none; */
+    transition: 0.5s;
+    flex-direction: column;
+}
+
+.user_Container:hover + .user_popup{
+    display: flex;
+}
+
+
+
+.user_popup_list{
+    display: flex;
+    padding: 3px 14px;
+    align-items: center;
+    border-bottom: 1px solid rgb(189, 178, 178 ,0.3);
+    padding-left: 20px;
+    height: 45px;
+   cursor: pointer;
+}
+
+.user_popup_list img{
+    width: 13px;
+    margin-right: 10px;
+}
+
+.user_popup_list h6{
+    color: var(--grey);
+    font-size: 12.5px;
+    margin-left: 4px;
+    margin-bottom: -2px;
+}
+
+.user_popup_list:hover{
+   background: rgb(241, 233, 233);
+}
+
+

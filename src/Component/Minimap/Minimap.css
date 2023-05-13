@@ -1,0 +1,18 @@
+/* here we will enter all the css related to the minimap  */
+
+.leaflet-control-minimap.leaflet-container.leaflet-touch.leaflet-fade-anim.leaflet-grab.leaflet-touch-drag.leaflet-touch-zoom.leaflet-control {
+    position: absolute !important;
+   right: 91px;
+   bottom: 21px;
+    box-shadow: 2px 2px 2px rgb(201, 198, 198) , -2px -2px 2px rgb(201, 198, 198) ;
+    border-radius: 4px;
+    
+    
+}
+
+
+
+a.leaflet-control-minimap-toggle-display.leaflet-control-minimap-toggle-display-bottomright {
+    width: 30px !important;
+    height: 30px !important;
+}

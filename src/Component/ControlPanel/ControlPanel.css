@@ -1,0 +1,983 @@
+/* =========================
+In this stylesheet we will add css to the control and panel parts 
+================================== */
+
+
+.modal-content{
+    background: transparent;
+}
+
+.modal-backdrop.show {
+    opacity: 0.1 !important;
+}
+
+.location-search-input{
+    flex: 1;
+}
+
+.control{
+  width: 92%;
+  margin: auto;
+  border-radius: 3px !important;
+  background:rgb(255,255,255,0.8);
+  position: relative;
+}
+
+/* giving css to the step wizard of all the the three step which will be used in all the three panels  */
+.control_items{
+    padding: 19px ;
+    padding-bottom: 0px !important;
+   
+}
+.panel_row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.panel_row1 h5{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.panel_row1 span{
+    color: var(--blue);
+    font-size:15px;
+    margin-top: -5px;
+}
+
+.panel_row2{
+    width: 85%;
+    margin:15px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px !important;
+    position: relative;
+   
+}
+
+.panel2_checkbox{
+    /* border: 2px solid red; */
+    padding-right: 15px;
+    margin-top: 8px;
+    border-top: 2px solid rgb(236, 236, 236);
+    min-height: 350px;
+    max-height: 50vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-bottom: 8px;
+}
+
+.panel2_checkbox::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  .panel2_checkbox::-webkit-scrollbar-thumb {
+    background: var(--blue); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .panel2_checkbox::-webkit-scrollbar-thumb:hover {
+    background: var(--blue); 
+  }
+  .panel2_checkbox::-webkit-scrollbar {
+    width: 6px;
+  }
+
+.panel_row2::before{
+    content: "";
+    z-index: 10001 !important;
+    position: absolute;
+    top: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 98%;
+    height: 2px ;
+    background: var(--blue);
+}
+
+.panel_row2_col1 , .panel_row2_col2 , .panel_row2_col3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    
+}
+
+.panel_row2_col1  input, .panel_row2_col2  input, .panel_row2_col3 input{
+    z-index: 10002 !important;
+   width: 48px;
+   height:48px;
+   text-align: center;
+   border-radius: 50%;
+   border: 0.2px solid grey;
+    font-size: 18px;
+    color: var(--grey);
+    font-weight: 600;
+    background: white;
+    margin-bottom: 9px;
+    cursor: pointer;
+    outline: none;
+}
+
+.panel_row2_col1 h6 , .panel_row2_col2 h6 , .panel_row2_col3 h6{
+    font-size: 18px ;
+    font-weight: 600;
+}
+
+.panel_row2_col1 input {
+    background: var(--blue);
+    color: white;
+    border: 0.2px solid var(--blue);
+}
+
+.panel_row2_col1 h6{
+    color: var(--blue);
+}
+
+
+
+
+/* here we are styling the search bar into the first panel */
+.autoComplete_container{
+    width: 105%;
+    background: white;
+    margin-left: -5% ;
+    margin-top: -3px;
+}
+
+ .autoComplete{
+     border-bottom: 1px solid rgb(228, 228, 228);
+    padding : 6px 14px ;
+    cursor: pointer;
+ }
+
+ .autoComplete li{
+     list-style:  none;
+ }
+
+
+
+.control_btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 35px;
+    padding-right: 14px;
+}
+
+.control_btn button{
+    margin-left: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 36px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.control_btn button:first-child{
+    background: var(--grey);
+}
+
+.control_btn button:last-child{
+    background: var(--blue);
+}
+
+/* giving special css to the button when it is in second panel */
+
+.control2_btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: -55px;
+    margin-bottom: 39px;
+   padding-right: 34px;
+}
+
+.control2_btn button{
+    margin-left: 26px;
+    font-size: 14px;
+    padding: 6px 36px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.control2_btn button:first-child{
+    background: var(--grey);
+}
+
+.control2_btn button:last-child{
+    background: var(--blue);
+}
+.panel1{
+    padding: 18px 38px;
+    padding-top: 0px !important;
+}
+
+
+
+.panel1_row3 {
+    margin: 2px 14px;
+    transition: 0.3s;
+}
+
+.panel1_row3 span{
+    color: var(--grey);
+    font-size: 15px ;
+    font-weight: 500;
+}
+
+.panel1_row3_col1{
+    margin: 5px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 0px 8px;
+    border-radius: 4px;
+    box-shadow: var(--boxshadow) ;
+}
+
+.panel1_row3_col1 input{
+    padding: 10.5px 8px;
+    font-size: 16px;
+    width: 360px;
+    border: none;
+    outline: none;
+    background: white;
+    margin-left: 12px;
+    padding-left: 7px !important;
+}
+.panel1_row3_col1 input::placeholder{
+    font-size: 16px;
+    color: var(--grey);
+    font-weight: 500;
+}
+.panel1_row3_col1 img{
+    padding: 2px ;
+    margin-left: 6px;
+}
+.panel1_row3_col2 img{
+    padding: 0px 8px ;
+    border-left: 1.1px solid rgb(146, 141, 141,0.6)
+}
+
+.panel1_row4{
+    margin: 29px 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.panel1_row4_col1 , .panel1_row4_col2 , .panel1_row4_col3 {
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:white;
+    padding:10px 23px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: var(--boxshadow);
+}
+
+.panel1_row4_col2 img{
+    width: 50px;
+    margin-top: 6px;
+}
+
+  .panel1_row4_col3 img{
+    width: 48px;
+    margin-top: 6px;
+}
+
+.panel1_row4_col1 img{
+    width: 28px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.panel1_row4_col1 span , .panel1_row4_col2 span , .panel1_row4_col3 span{
+    font-size: 13px;
+    font-weight: 500;
+    padding: 6px 0px;
+    color: var(--grey);
+}
+
+.panel1_row5{
+    margin: 12px 23px;
+    margin-top: 48px !important;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+/* adding css to the second panel  */
+
+.panel2{
+   padding: 18px 38px;
+   padding-top: 0px !important;
+   margin: 0px 6px;
+}
+
+.panel2_row1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.panel2_row1_search{
+    width: 25%;    
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border-radius: 3px ;
+    box-shadow: var(--boxshadow) ;
+    overflow: hidden;
+}
+.panel2_row1_search input{
+    font-size: 14px;
+    height: 39px;
+    width: 80%;
+    border: none;
+    outline: none;
+    padding: auto 4px;
+    padding-left: 6px !important;
+}
+.panel2_row1_search input::placeholder{
+    color: var(--grey);
+}
+.panel2_row1_search_img{
+    width: 20%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.panel2_row1_search_img img{
+    width: 70%;
+    padding: 3px;
+    margin-left: 4px;
+}
+
+.save_selection{
+    width: 20%;
+    font-size: 14px ;
+    height: 39px;
+    padding: auto 12px;
+    background: var(--blue);
+    border-radius: 3px;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.panel2_row1 select {
+    width: 25%;
+    height: 39px;
+    font-size: 14px;
+    padding: auto px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    box-shadow: var(--boxshadow) ;
+    color: var(--grey);
+    padding-left: 8px;
+    padding-right: 6px;
+}
+
+.apply_selection{
+    width: 20%;
+    height: 39px;
+    font-size: 14px ;
+    padding: auto 12px;
+    background: var(--blue);
+    border-radius: 3px;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.panel2_row2{
+    width: 108%;
+    margin: 19px 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.panel2_row2 .panel_row2_col{
+    width: 140px;
+    height: 160px;
+    margin-right: 28px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.panel2_row2_col{
+    width: 140px;
+    height: 160px;
+    margin-right: 28px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+
+}
+.panel2_row2_col label{
+    position: relative !important;
+    width: 83%;
+    height: 103px;
+   
+    background: white;
+    border-radius: 3px;
+    box-shadow: var(--boxshadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.coins_details {
+    position: absolute;
+    top: 2px;
+    left: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 28px;
+  
+    height: 25px;
+}
+.coins_details img{
+    width: 33px;
+}
+
+.coins_details span{
+    margin-top: 4px;
+    color: green;
+    font-size: 13px;
+}
+
+.panel2_row2_col label input{
+    position: absolute;
+    top: 8px ;
+    right: 9px;
+}
+.panel2_row2_col label img{
+    width: 62px;
+    margin-top: 12px;
+}
+
+.panel2_row2_col h6{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--grey);
+    padding: 3px;
+    margin-top: 7px;
+}
+.normalUp{
+    margin-top: 3px !important;
+}
+
+.panel2_row3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 16mkpx !important;
+    margin: 16px 0px;
+}
+
+.poi h5{
+    font-size: 17px;
+    color: var(--blue);
+    font-weight: 500;
+}
+
+.poi_apparels span{
+    font-size: 16px ;
+    color: var(--grey);
+    font-weight: 500;
+}
+
+
+
+.poi_apparels_col{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    align-items: center;
+    width: 108%;
+    margin-top: 13px !important;
+   
+    /* width: 107%; */
+    margin: 19px 0px;
+    /* display: grid;
+    grid-column-gap: 14px;
+    grid-row-gap: 18px;
+    grid-template-columns: auto auto auto auto; */
+    margin-left: -1.7%;
+   
+}
+
+.poi_apparels_col .coins_details {
+    position: absolute;
+    top: 2px;
+    left: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 28px;
+  
+    height: 25px;
+}
+.poi_apparels_col .coins_details img{
+    width: 33px;
+}
+
+.poi_apparels_col .coins_details span{
+    margin-top: 4px;
+    color: green;
+    font-size: 13px;
+}
+.poi_apparels_col .panel2_row2_col h6{
+    font-size: 13.8px;
+    padding: 1px ;
+}
+
+.poi_apparels_col  h6 {
+    margin-top: 8px !important;
+}
+
+.poi_building span{
+    padding: 4px 2px ;
+    font-size: 17px ;
+    color: var(--grey);
+    font-weight: 500;
+}
+
+.panel2_footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* giving css to the panel2 footer part ; */
+.panel2_footer_left{
+    margin-left: 6px;
+}
+
+.panel2_footer_left_row1{
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.panel2_footer_left_row1_col2{
+    margin-left: 23px;
+}
+
+
+.panel2_footer_left_row1_col2 h6{
+   font-size: 16px;
+   font-weight: 500;
+  margin-bottom: -3px;
+  color: var(--grey);
+}
+
+.panel2_footer_left_row1_col2 span{
+    font-size: 20px ;
+    color: var(--grey);
+    font-weight: 500;
+    padding: 0px;
+    padding-top: -5px;
+}
+
+.panel2_footer_left_row2 , .panel2_footer_left_row3{
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    margin-bottom: -3px;
+}
+
+.panel2_footer_left_row2 h6 , .panel2_footer_left_row3 h6{
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--grey);
+}
+
+.panel2_footer_left_row2 h5 , .panel2_footer_left_row3 h5{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.panel2_footer_left_row2 h5{
+    color: rgba(253, 1, 1, 0.8);
+}
+
+.panel2_footer_left_row3 h5{
+    color: rgba(0, 143, 0, 0.8);
+}
+
+
+/* from here the third panel designing start */
+
+.panel3{
+    width: 100%;
+    padding: 18px 40px;
+    padding-top: 0px !important ;
+}
+
+.panel3_heading h5{
+    text-align: center;
+    color: var(--grey);
+    font-weight: 500;
+    font-size: 22px;
+
+}
+
+.panel3_row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 42px !important;
+    margin: 18px 0px;
+    margin-bottom: -17px;
+}
+
+
+.panel3_row1_col1{
+    width: 20%;
+}
+.panel3_row1_col1 label{
+    position: relative !important;
+    width: 100%;
+    height: 105px;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px rgb(161, 159, 159) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.panel3_row1_col1 label input{
+    position: absolute;
+    top: 8px ;
+    right: 9px;
+}
+.panel3_row1_col1 label img{
+    width: 62px;
+    margin-top: 12px;
+}
+
+.panel3_row1_col1 h6{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--black);
+    padding: 3px;
+    margin-top: 4px;
+}
+
+
+.panel3_row3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+/* giving style to the cut icon */
+
+
+.control .cut_option{
+    cursor: pointer;
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--boxshadow);
+}
+
+.control .cut_option img{
+    padding: 1px;
+    width: 100%;
+}
+
+/* adding media query to the modal-content  */
+@media only screen and (max-width : 1024px){
+    
+    .panel2_row2_col{
+        width: 156px;
+        height: 160px;
+    }
+  
+}
+
+
+@media only screen and (max-width : 1025px){
+    .control {
+        width: 100%;
+        
+        
+    }
+    .save_selection{
+        font-size: 12px;
+    }
+    .apply_selection{
+        font-size: 12px;
+    }
+    .panel2_row1 select{
+        font-size: 12px;
+    }
+    .panel2_row1_search{
+        width: 25%;
+    }
+    .panel2_row1_search input{
+        font-size: 12px ;
+    }
+}
+
+
+@media only screen and (max-width : 990px){
+    
+    
+    .control {
+        width: 140%;
+        transform: translateX(-15%);
+        
+       
+    }
+
+    .panel2_row2{
+       
+       
+    }
+    /* .panel1_row4_col1 , .panel1_row4_col2 , .panel1_row4_col2 {
+        width: 33%;
+    } */
+
+    .poi_apparels {
+        width: 102%;
+    }
+    .panel2_row2_col  {
+       width: 22% !important; 
+    margin-right: 2.1% !important;
+      
+    }
+    .panel2_row2_col h6{
+        font-size: 12px;
+        
+    }
+    .poi_apparels .panel2_row2_col h6{
+        font-size: 12px;
+    }
+    .poi_building .panel2_row2_col h6{
+        font-size: 12px;
+    }
+    .panel3_row1_col1{
+        width: 23%;
+    }
+
+    .panel2_row2_col{
+        width: 140px;
+        margin-right: 5px;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width : 780px){
+    .control {
+        width: 130%;
+        transform: translateX(-11%);
+       
+    }
+    .panel1_row4_col1 , .panel1_row4_col2 , .panel1_row4_col2 {
+        width: 33%;
+    }
+    .panel2_row2_col{
+       width: 21%; 
+    }
+    .panel2_row2_col h6{
+        font-size: 12px;
+        
+    }
+    .poi_apparels .panel2_row2_col h6{
+        font-size: 12px;
+    }
+    .poi_building .panel2_row2_col h6{
+        font-size: 12px;
+    }
+    .panel3_row1_col1{
+        width: 23%;
+    }
+
+    .panel2_row2_col{
+        width: 140px;
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width : 650px){
+    .control{
+        
+        width: 110%;
+        transform: translateX(-5%);
+    }
+    .panel1  {
+        padding: 11px 6px;
+    }
+    .panel2{
+        padding: 11px 13px;
+    }
+    .panel3{
+        padding: 11px 18px;
+    }
+}
+
+@media only screen and(max-width : 650px){
+    .panel2_row2_col{
+        margin-right: 40px;
+        width: 160px;
+    }
+}
+
+
+
+/* from here we are styling the selected features component  */
+
+.selectedFeatures{
+    background: white;
+    width: 100%;
+    height:  250px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+   
+    border-radius: 8px;
+    flex-direction: column;
+    padding: 0px 55px;
+    padding-top: 30px;
+    position: relative;
+    box-shadow: var(--boxshadow);
+}
+
+.selectedFeatures label{
+    color: rgb(70, 68, 68);
+    font-size: 23px;
+    margin:   12px 0px;
+}
+
+.selectedFeatures input{
+    color: black;
+    font-size: 16px;
+    padding: 12px 5px;
+    border: 2px solid grey ;
+    outline: none;
+    border-radius: 4px;
+}
+
+.save_file{
+    position: absolute;
+    right: 10%;
+    bottom: 25px;
+}
+
+.selectedFeatures_cut{
+    position: absolute;
+    top: -9px;
+    right: -9px;
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: var(--boxshadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectedFeatures_cut img{
+    width: 90%;
+    padding: 8px;
+}
+
+/* here we are adding the css to the toggle bar */
+
+
+.poi_details{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.poi_details .react-switch{
+    margin-left: 25px;
+    margin-top: -7px;
+}
+
+.poi_switch{
+    display: flex;
+    align-items: center;
+}
+
+.poi_switch span{
+    margin-top: -8px;
+    margin-left: 8px;
+}
+
+.switch{
+    display: flex;
+    align-items: center;
+    margin-bottom: -20px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.switch h4{
+    color: rgb(63, 61, 61);
+}
+
+.switch h4:last-child{
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+
+.switch h4:first-child{
+    margin-right: 16px;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,798 @@
+/* This is the css file of this project ;*/
+
+
+.main_container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leaflet_container{
+    width: 100%;
+    height: 100%;
+}
+
+.loginimages{
+    z-index: 1000;
+    position: absolute ;
+    right: 34px ;
+    top: 25px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 2px 2px 15px 8px grey;
+    cursor: pointer;
+}
+
+.loginimages img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.leaflet-left .leaflet-control {
+    margin-left:1px !important;
+
+}
+
+.leaflet-right .leaflet-control {
+    margin-right: 35px !important;
+}
+
+.leaflet-draw{
+    position: relative;
+    height: 100vh !important;
+    display: flex;
+   
+}
+.leaflet-draw-section {
+    position: absolute !important;
+    top: 179px !important;
+    right: 0px !important;
+}
+.leaflet-draw-toolbar-top {
+    margin-top: 0;
+    border-radius: 1px;
+    overflow: hidden;
+}
+
+ .leaflet-draw-draw-polygon{
+    z-index: 10001;
+    position: relative !important;
+    border-bottom: none !important;
+    border-top: none !important;
+    width: 116px !important ;
+    height:  48px !important ;
+    line-height: 48px !important;
+}
+
+
+.leaflet-draw-draw-polygon:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:11111;
+    background-image: url("./mainimages/polygon.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+    background-size: 58%;
+    background-color: var(--blue);
+    height: 100%;
+}
+
+ .leaflet-draw-draw-polygon::after{  
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index:11111;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60%;
+    height: 100%;
+    color: white;
+    background-color: var(--blue);
+    text-align: left;
+    padding-left: 0px;
+}
+
+
+.leaflet-draw-draw-rectangle{
+    position: relative !important;
+    border-bottom: none !important;
+    border-top: none !important;
+    width: 116px !important ;
+    height:  48px !important ;
+    line-height: 48px !important;
+}
+
+.leaflet-draw-draw-rectangle:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:11111;
+    background-image: url("./mainimages/rectangle.svg");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--blue);
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    height: 126%;
+    margin: auto;
+}
+
+.leaflet-draw-draw-rectangle::after{   
+    /* content: "Rectangle"; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index:11111;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60%;
+    height: 100%;
+    color: white;
+    background-color: var(--blue);
+    text-align: left;
+    padding-left: 0px;
+}
+
+
+.leaflet-draw-draw-circle{
+    position: relative !important;
+    border-bottom: none !important;
+    border-top: none  !important;
+    width: 116px !important ;
+    height:  48px !important ;
+    line-height: 48px !important;
+}
+
+.leaflet-draw-draw-circle:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:11111;
+    background-image: url("./mainimages/circle.svg");
+    background-size: 114%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+    margin-top: 6px;
+    background-color: var(--blue);
+    height: 100%;
+}
+
+.leaflet-draw-draw-circle::after{   
+    /* content: "Circle"; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index:11111;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60%;
+    height: 100%;
+    color: white;
+    background-color: var(--blue);
+    text-align: left;
+    padding-left: 0px;
+   
+}
+
+.leaflet-draw-draw-marker{
+    position: relative !important;
+    border-bottom: none !important;
+    border-top: none !important;
+    width: 116px !important ;
+    height:  48px !important ;
+    line-height: 48px !important;
+}
+
+.leaflet-draw-draw-marker:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:11111;
+    background-image: url("./mainimages/marker.svg" );
+    background-color: var(--blue);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+   
+    height: 100%;
+}
+
+.leaflet-draw-draw-marker::after{   
+    /* content: "Drop Mark"; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index:11111;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60%;
+    color: white;
+    height: 100%;
+    background-color: var(--blue);
+    text-align: left;
+    
+    padding-left: 0px;
+}
+
+.leaflet-touch .leaflet-right .leaflet-draw-actions {
+    right: 120px !important;
+    left: auto;
+}
+
+
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+    border: none !important;
+    background-clip: padding-box;}
+
+
+.leaflet-container .leaflet-control-attribution{
+    margin-right: 0px !important;
+    margin-bottom: 0px !important ;
+}
+
+.leaflet-draw-toolbar .leaflet-bar .leaflet-draw-toolbar-top .leaflet-draw-toolbar-notop{
+    margin-bottom: 444px;
+}
+
+
+/* adding css to the toolbar icon */
+
+.navbar_toolbar{
+    z-index: 1001;
+    position: absolute;
+    top: 140px;
+    right: 0px;
+    cursor: pointer;
+    width: 40px;
+    margin-right: 35px;
+    padding: 5px 7px;
+    height: 35px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+   }
+   
+   .navbar_toolbar img{
+    width: 100%;
+   }   
+
+   
+
+.chat_info_icon{
+    cursor: pointer;
+    position: absolute;
+    z-index: 1001;
+    bottom: 30px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chat_info_icon img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 6px;
+}
+
+.chat_feedback{
+   margin-top: 9px;
+   cursor: pointer;
+    background: white;
+    padding-right: 6px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat_feedback img{
+    border-radius: 0px !important;
+    width: 19px;
+    height: 19px;
+    margin:6px ;
+}
+
+.location_tracker{
+    position: absolute;
+    z-index: 1001;
+    background: rgb(255, 255, 255);
+    bottom: 120px;
+    width: 50px;
+    
+    height: 36px;
+    align-items: center;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    left: 28px;
+    cursor: pointer;
+    box-shadow: var(--boxshadow);
+}
+
+.location_tracker img{
+    background: white;
+    width: 33px;
+    height: 36px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+
+/* giving styles to the spaes  */
+
+
+.shapes{
+    position: absolute;
+    z-index: 1002;
+    top: 189px;
+    right: 35px;
+    background: green;
+}
+
+.shapes_polygon ,.shapes_rectangle ,.shapes_circle ,.shapes_marker{
+    width: 114px;
+    height: 43px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+/* adding css to the layers control  */
+.leaflet-control-layers{
+    position: absolute !important;
+    left: 90px ;
+    bottom: 2px;
+    background: white !important;
+}
+.leaflet-control-layers-toggle{
+    width: 45px !important;
+    height: 45px !important;
+    box-shadow: var(--boxshadow);
+}
+
+
+.leaflet-control-layers-toggle::after{
+    position: absolute;
+    top: 0px !important;
+   
+    margin-left: 15%;
+    margin-top: 15%;
+    content:  "";
+    z-index: 1111;
+   
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain;
+   
+}
+.leaflet-control-layers-expanded{
+    margin-left: 123px  !important;
+}
+
+.leaflet-control-layers-list{
+    width: 210px !important;
+   background: white !important;
+   margin-right: -4px !important;
+}
+
+.leaflet-control-layers-base{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+   
+    justify-content: space-evenly;
+}
+
+.leaflet-control-layers label{
+    position: relative !important ;
+    width: 90px !important;
+    height: 80px !important;
+    box-shadow: var(--boxshadow);
+    margin: 5px 2px;
+}
+
+.leaflet-control-layers-base label div span{
+ position: absolute;
+ bottom: 6px ;
+ left: 50%;
+ transform: translateX(-50%);
+ width: 100%;
+ text-align: center;
+ font-size: 11px;
+ color: var(--grey);
+ font-weight: 500;
+}
+
+
+.lealfet-control-layers-base label div{
+    width: 100% !important;
+    border: 5px solid blue !important;
+}
+
+.leaflet-control-layers-base label div input{
+    width: 10px ;
+    height: 10px ;
+    transform: translate(30px ,2px);
+   
+}
+
+.leaflet-control-layers-base label::after{
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    height: 50px  !important;
+    width: 50px !important;
+    content: ""  !important;
+    z-index: 1001 !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    margin-left: 25px;
+}
+
+.leaflet-control-layers-base label:first-child::after{
+    background-image: url("./mainimages/layers/street.png");
+    height: 40px  !important;
+    margin-top: 10px;
+    width: 40px !important;
+}
+
+.leaflet-control-layers-base label:nth-child(2)::after{
+    background-image: url("./mainimages/layers/pastels.png");
+    height: 40px  !important;
+    width: 40px !important;
+    margin-top: 10px;
+}
+.leaflet-control-layers-base label:nth-child(3)::after{
+    background-image: url("./mainimages/layers/topographics.png");
+    height: 40px  !important;
+    width: 40px !important;
+    margin-top: 10px;
+}
+.leaflet-control-layers-base label:nth-child(4)::after{
+    background-image: url("./mainimages/layers/traffic.png");
+    height: 80px  !important;
+    width: 80px !important;
+    margin-left: 4px;
+    margin-top: -8px;
+}
+.leaflet-control-layers-base label:nth-child(5)::after{
+    background-image: url("./mainimages/layers/map.png");
+    height: 38px  !important;
+    width: 38px !important;
+    margin-top: 10px;
+}
+.leaflet-control-layers-base label:nth-child(6)::after{
+    background-image: url("./mainimages/layers/satellite.png");
+    height: 38px  !important;
+    width: 38px !important;
+    margin-top: 10px;
+}
+.leaflet-control-layers-selector{
+    width: 100px !important;
+   
+}
+/* Adding css to the second part of the homepage ; */
+
+.secondnav{
+    z-index: 1010;
+} 
+
+.secondnav_col1{
+    display: flex;
+    background: white;
+    border: 0.5px solid rgb(167, 164, 164 ,0.9);
+    padding: 4px 15px;
+    padding-left: 18px  !important;
+    border-radius: 3px;
+    margin: 0px 13px;
+    height: 55px;
+
+}
+
+.secondnav_col1_layers , .secondnav_col1_print , .secondnav_col1_refresh  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px;
+    cursor: pointer;
+    
+}
+
+.secondnav_col1_layers {
+    width: 56px;
+    margin-left: -4px;
+}
+.secondnav_col1_print{
+   margin: 0px 15px 0px 16px;
+    position: relative;
+}
+ .secondnav_col1_print img {
+     position: absolute;
+     top: -1px;
+    width:32px;
+}
+
+
+.secondnav_col1_print span{
+ position: absolute;
+ bottom:0.5px;
+}
+.secondnav_col1_refresh img{  margin-top: 3px;
+    width: 45%;
+    margin-bottom: 4px;
+}
+
+.secondnav_col1_layers img{
+    width: 60%;
+    margin-top: 3px;
+    margin-bottom: 4px;
+}
+
+.secondnav_col1 span{
+    color: var(--blue);
+    font-size: 12px;
+}
+
+
+/* adding css to plus and minus icons*/
+
+
+
+
+/* .layers_control_container{
+    border: 2px solid green;
+} */
+
+/* adding css to the control panel */
+
+.secondnav_col3{
+    background: rgb(0,161,228,0.85);
+    padding: 12.5px 10px;
+    margin: 11px 0px 11px 20px;    border: 0.5px solid var(--border);
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.secondnav_col3 span{
+    color: white;
+    padding: 4px 8px;
+    padding-left: 9px !important;
+    font-size: 12px;
+}
+
+
+
+/* adding rough css */
+
+.printer_refresh{
+    z-index: 1010;
+    display: flex;
+    position: absolute;
+    top: 80px;
+    right: 262px;
+    background-color: white;
+}
+
+.printer , .Refresh {
+    width: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.printer span{
+font-size:  11px;
+color: var(--blue);
+font-weight: 500;
+margin-top: -5px;
+margin-bottom: 3px;
+}
+.Refresh span{
+   font-size:  11px; 
+   color: var(--blue);
+   font-weight: 500;
+   margin-top: 2px;
+   margin-bottom: 3px;
+}
+
+.editcontrol {
+   position: relative;
+   z-index: 2000;
+   top: 45px ;
+   left: 55px ;
+   background: red;
+   width: 44px;
+   height: 44px;
+}
+
+
+
+/* adding secondnav plus minus icons css */
+
+.plus_minus_icons{
+    position: absolute;
+    z-index: 1009;
+    top: 90px;
+    right: 207px;
+    width: 35px;
+    height: 35px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.plus_minus_icons img{
+    width: 100%;
+    padding: 8px;
+}
+
+.zoom_control{
+    position: absolute;
+    z-index: 1008;
+    bottom: 11px;
+    left: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: var(--boxshadow);
+    border-radius: 4px;
+    outline: none;
+    background: white;
+    width: 50px;
+}
+
+.zoom_control img{
+    width: 36px;
+    height: 35px;
+    padding: 3px 10px;
+    background: white;
+    cursor: pointer;
+}
+
+.zoomcontrol_value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    height: 35px !important;
+    border-top: 0.1px solid rgb(219, 210, 210) !important;
+    border-bottom: 0.1px solid rgb(219, 210, 210) !important;
+    background: white !important;
+}
+
+.zoomcontrol_value span{
+    font-size: 13px;
+    color: var(--blue);
+    width: 30%;
+}
+
+.zoom_control  input{
+    color: var(--blue);
+    font-size: 13px;
+    height: 33px;
+    width: 65%;
+    text-align: right;
+    border: none;
+    outline: none;
+    padding-right: 2px;
+    
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+
+/* adding css to the sweet alert ; */
+a.btn.btn-lg.btn-primary {
+    width: 100px !important;
+    background: #4646c9 !important;
+    font-size: 15px;
+    color: white !important;
+    height: 30px !important;
+    line-height: 30px !important;
+}
+
+.sweetAlert_heading{
+    color: var(--blue);
+}
+
+/* adding css to the tools  */
+.tools{
+    position: absolute;
+    top: 24%;
+    left: 0px;
+    z-index: 1000;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 7px;
+    height: 34px;
+    cursor: pointer;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.tools h5{
+    color: var(--blue);
+   padding: 8px ;
+   font-size: 13px;
+   margin-top: 6px;
+}
+
+
+@media only screen and (max-width : 1025px){
+    .main_container{
+        height : calc(100vh)
+    }
+}
+
+
+
+
+/* here we are wriiting the guided tour  */
+
+.mask {
+    color: #1a1919;
+    opacity: 0.8;
+  }
+
+.catchh .result_popup{
+    display: none !important;
+}
+
+
+.loadShpe{
+    position: absolute;
+    z-index: 1010 !important;
+    top: 32%;
+    background: white;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding: 4px 6px;
+    left: 0px !important;
+    cursor: pointer;
+}
+
+.loadShpe span{
+  font-size: 12px;
+   color: var(--blue);
+   font-weight: 500;
+}

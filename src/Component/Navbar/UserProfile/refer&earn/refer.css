@@ -1,0 +1,147 @@
+/* here only refer and earn css will be added  */
+
+.referearn{
+    width: 120%;
+    background: white;
+    border-radius: 8px;
+    height: 100%;
+    margin-left: -10%;
+    border-bottom: 12px solid var(--blue);
+    display: flex;
+    
+    position: relative;
+}
+
+.referearn_left{
+    width: 53%;
+ padding: 4% 3% 0px 3.6%;
+ 
+}
+
+.referearn_left h3{
+    color: rgb(39, 34, 34);
+}
+.referearn_left img{
+    margin-top: 6%;
+    width: 85%;
+    margin-left: 3.5%;
+    margin-bottom: 0px;
+}
+
+.referearn_right{
+    width: 47%;
+    padding: 12px 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.referearn_right_img{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.referearn_right_img img{
+    width: 60%;
+}
+
+.referearn_right_code {
+    width: 65%;
+    height: 79px;
+    border: 3px dotted var(--blue);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.referearn_right_code h2{
+    color: var(--blue);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: -4px;
+}
+
+.referearn_right_text{
+    margin-top: 25px;
+    width: 70%;
+    text-align: center;
+    color: var(--gray);
+   
+}
+
+.referearn_right_text span{
+   margin: 13px ;
+   color: rgb(170, 161, 161);
+   font-size: 15px;
+}
+
+.referearn_right button{
+    width: 185px;
+    border-radius: 26px;
+    border: 2px solid var(--blue);
+    background: white;
+    outline: none;
+    margin: 15px;
+    padding: 7px 12px;
+    font-size: 17px;
+    color: var(--blue);
+
+}
+
+.referearn_right_socialmedia{
+    width: 90%;
+   
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.referearn_right_socialmedia img{
+  
+   border-right: 50%;
+
+}
+
+.referearn_cut{
+    position: absolute;
+    top: -9px;
+    right: -9px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background : white;
+    box-shadow: var(--boxshadow);
+    cursor: pointer;
+}
+
+.referearn_cut img{
+    width: 100%;
+    padding: 9px;
+}
+
+@media only screen and (max-width : 900px){
+    .referearn{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .referearn_left{
+        width: 80%;
+    }
+    .referearn_right{
+        width: 80%;
+    }
+
+    .referearn_right_img{
+        display: none;
+    }
+    
+}

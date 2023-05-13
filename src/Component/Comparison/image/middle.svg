@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.992" height="25.59" viewBox="0 0 20.992 25.59">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#46c5f2"/>
+      <stop offset="1" stop-color="#00a1e5"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_5636" data-name="Group 5636" transform="translate(-8765.499 -6442.75)">
+    <g id="money-bag" transform="translate(8765.499 6442.75)">
+      <path id="Path_3741" data-name="Path 3741" d="M165.338,0l-.53.53a1.373,1.373,0,0,1-1.939,0l-.53-.53-.53.53a1.373,1.373,0,0,1-1.939,0L159.34,0l-.53.53c-1.529,1.529-2.029,2.79-.348,4.77a10.384,10.384,0,0,1,7.753,0c1.684-1.979,1.184-3.24-.348-4.772Z" transform="translate(-151.843)" fill="url(#linear-gradient)"/>
+      <path id="Path_3742" data-name="Path 3742" d="M66.992,136.782a6.982,6.982,0,0,0-.754-3.259,7.224,7.224,0,0,1-.745-3.488,9,9,0,0,0-17.993,0,7.247,7.247,0,0,1-.747,3.489A6.994,6.994,0,0,0,46,136.782c0,2.209,2.766,3.8,5.248,3.8h10.5C64.226,140.58,66.992,138.991,66.992,136.782Zm-10.5-6.747a2.244,2.244,0,0,1,.75,4.36v1.638h-1.5v-1.638a2.246,2.246,0,0,1-1.5-2.111h1.5a.75.75,0,1,0,.75-.75,2.244,2.244,0,0,1-.75-4.36v-1.638h1.5v1.638a2.246,2.246,0,0,1,1.5,2.111h-1.5a.75.75,0,1,0-.75.75Z" transform="translate(-46 -114.99)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

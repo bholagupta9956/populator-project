@@ -1,0 +1,615 @@
+/* this is the css part of the graphs  */
+.graphs {
+   /* margin-top: 25px; */
+   margin-bottom: 40px;
+   width: 100%;
+    background: white;
+}
+.piechart{
+    height: 370px;
+    padding-top: 28px;
+    border-radius: 4px;
+    width: 48%;
+    margin-left: 2px;
+    box-shadow: var(--boxshadow);
+    position: relative;
+    background: white;
+}
+
+.piechart h3{
+    color: var(--blue);
+    font-weight: 400;
+    font-size: 14px;
+    position: absolute;
+    top: 9px;
+    left: 13px;
+    text-transform: uppercase;
+}
+
+
+.graphs_first_row{
+    width: 100%;
+    margin: 32px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* moving towards graph second row */
+
+.graphs_second_row{
+    width: 100%;
+    margin: 2px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.doublelinegraph{
+    background: white;
+    width: 48%;
+    height: 381px;
+    margin-top: 2px;
+    margin-left: 2px;
+    box-shadow: var(--boxshadow);
+    border-radius: 4px;
+}
+
+.doublelinegraph h3{
+    color: var(--blue);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 12px 6px -5px 13px;
+    text-transform:uppercase;
+}
+.doublelinegraph_data{
+    padding: 8px 6px;
+}
+
+.linechart{
+    background-color: white;
+    
+}
+
+/* moving towards the graph second row*/
+
+
+.barLineGraph{
+    width: 48%;
+    margin-right: 10px;
+    box-shadow: var(--boxshadow);
+    border-radius: 5px;
+    background: white;
+    padding: 15px 5px;
+    height : 350px
+    
+}
+
+.barlinegraph_component {
+   width: 100%;
+}
+
+.barLineGraph h3{
+    color: var(--blue);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+
+/* moving towards the graph third row  */
+
+.graphs_third_row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.scrollingData{
+    width: 34%;
+    margin-left: 0.5%;
+    height: 370px;
+    box-shadow: var(--boxshadow);
+    overflow-y: scroll;
+    padding: 14px;
+}
+
+
+.scrollingData::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  .scrollingData::-webkit-scrollbar-thumb {
+    background: var(--blue); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .scrollingData::-webkit-scrollbar-thumb:hover {
+    background: var(--blue); 
+  }
+  .scrollingData::-webkit-scrollbar {
+    width: 6px;
+  }
+
+ 
+  .scrollingData_row{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+  }
+
+.scrollingData_row li{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.scrollingData_row li h6{
+    color: var(--blue);
+    padding: 2px 10px;
+    margin-bottom: -6px;
+   
+}
+
+.scrollingData_row span{
+  font-size: 13px;
+  color: var(--gray);
+  padding: 1px;
+}
+
+  .poigraph{
+      width: 62%;
+      box-shadow: var(--boxshadow);
+      height: 370px;
+      margin-right: 1.5%;
+      padding: 5px 12px;
+      border-radius: 4px;
+  }
+
+  .poigraph h3{
+      color: var(--blue);
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 400;
+      margin: 7px 12px 0px 0px;
+  }
+
+  /* moving towards the fourth graph row */
+
+  .graphs_fourth_row{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .sunbrustgraph{
+    position: relative;
+      width: 48%;
+      margin-left: 0.5%;
+      border-radius: 4px;
+      box-shadow: var(--boxshadow);
+      height: 350px;
+      margin-top: 28px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+     
+  }
+
+  .sunbrustgraph h3{
+      position: absolute;
+      top: 8px;
+     left: 13px;
+     color: var(--blue);
+     text-transform: uppercase;
+     font-size: 14px;
+     font-weight: 400;
+  }
+
+  
+.pyramidgraph{
+    position: relative;
+    width: 48%;
+    box-shadow: var(--boxshadow);
+    height: 380px;
+    border-radius: 4px;
+    margin-right: 1.5%;
+    
+   
+}
+.pyramidgraph  h3{
+    position: absolute;
+    color: var(--blue);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    top: 9px;
+    left: 13px;
+   
+}
+
+
+/* here we are giving style to the doubled histogram graph
+ */
+
+.histogramgraph{
+    margin-top: 28px;
+    width: 48%;
+    box-shadow: var(--boxshadow);
+    height: 350px;
+    border-radius: 4px;
+    margin-right: 1.5%;
+}
+
+/* moving towards the fifth row  */
+
+.graphs_fifth_row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.react_bubble_chart{
+    width: 98%;
+    box-shadow: var(--boxshadow);
+    height: 350px;
+}
+
+/* moving towards the 6th row  */
+
+.graphs_sixth_row{
+    width: 100%;
+    display: flex;
+    margin-top: 28px;
+   justify-content: space-between;
+}
+
+.chordgraph{
+    width: 48%;
+    box-shadow: var(--boxshadow);
+    height: 370px;
+    border-radius: 4px;
+    margin-left: 0.5%;
+}
+
+.chordgraph h3{
+    color: var(--blue);
+    font-size: 14px;
+    margin: 9px 13px 0px 13px;
+    font-weight: 400;
+
+}
+
+
+/* adding css to the circle packing graph  */
+
+.circle_packing_graph{
+    width: 48%;
+    height: 370px;
+    border-radius: 4px;
+    box-shadow: var(--boxshadow);
+    margin-right: 1.5%;
+    padding: 25px;
+    position: relative;
+}
+
+.circle_packing_graph h3{
+    position: absolute;
+    color: var(--blue);
+    font-size: 14px;
+   top: 9px;
+   left: 13px;
+   font-weight: 400;
+}
+
+/* moving towards the seventh row  */
+.graphs_seventh_row{
+    width: 100%;
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calender_graph{
+    width: 98%;
+    border-radius: 4px;
+    box-shadow: var(--boxshadow);
+    height: 170px;
+    margin-right: 1%;
+    position: relative;
+}
+
+.calender_graph h3{
+    position: absolute;
+    color: var(--blue);
+    font-size: 14px;
+    font-weight: 400;
+    top: 9px;
+    left: 13px;
+    text-transform: uppercase;
+  
+
+}
+/* moving towards the eight row */
+
+.graphs_eight_row{
+    width: 100%;
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.radar_graph{
+    width: 48%;
+    margin-left: 0.5%;
+    border-radius: 4px;
+    box-shadow: var(--boxshadow);
+    height: 370px;
+    position: relative;
+}
+
+.radar_graph h3{
+    position: absolute;
+    top: 9px ;
+    left: 13px;
+    font-size: 14px;
+    color: var(--blue);
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+/* giving styles to the bubble charts */
+
+
+.bubbleChart{
+    width: 48%;
+    height: 370px;
+    border-radius: 6px;
+    box-shadow: var(--boxshadow);
+    margin-right: 1.5%;
+}
+
+/* here we are adding the media query  */
+
+@media only screen and (max-width : 950px){
+    .graphs_first_row{
+        flex-direction: column;
+       
+    }
+
+    .piechart{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    .pyramidgraph{
+        width: 90%;
+        margin: auto;
+    }
+
+    .graphs_second_row{
+        flex-direction: column;
+    }
+
+    .doublelinegraph {
+        width : 90% ;
+        margin : auto ;
+        margin-bottom: 25px;
+    }
+
+    .barLineGraph{
+        width : 90% ;
+        margin: auto ;
+    }
+
+    .graphs_third_row{
+        flex-direction: column;
+    }
+
+    .scrollingData {
+        width: 90%;
+        margin-bottom: 25px;
+    }
+
+    .poigraph{
+        width: 90%;
+        margin-bottom: 25px;
+    }
+    .graphs_fourth_row{
+        flex-direction: column;
+    }
+
+    .sunbrustgraph{
+        width: 90%;
+        margin: auto ;
+        margin-bottom: 25px;
+    }
+
+    .histogramgraph {
+        width: 90%;
+        margin: auto;
+    }
+
+    .graphs_sixth_row{
+        flex-direction: column;
+    }
+
+    .chordgraph{
+        width : 90% ;
+        margin: auto;
+        margin-bottom:  25px;
+    }
+
+    .circle_packing_graph{
+        width : 90% ;
+        margin: auto;
+    }
+    
+    .graphs_seventh_row{
+        flex-direction: column;
+
+    }
+
+    .graphs_eight_row{
+        flex-direction: column;
+    }
+
+    .radar_graph{
+        width: 90%;
+        margin: auto ;
+       
+    }
+
+    .bubbleChart {
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 768px){
+
+    
+    .graphs_first_row{
+        flex-direction: column;
+       
+    }
+
+    .piechart{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    .pyramidgraph{
+        width: 90%;
+        margin: auto;
+    }
+
+    .graphs_second_row{
+        flex-direction: column;
+    }
+
+    .doublelinegraph {
+        width : 90% ;
+        margin : auto ;
+        margin-bottom: 25px;
+    }
+
+    .barLineGraph{
+        width : 90% ;
+        margin: auto ;
+    }
+
+    .graphs_third_row{
+        flex-direction: column;
+    }
+
+    .scrollingData {
+        width: 90%;
+        margin-bottom: 25px;
+    }
+
+    .poigraph{
+        width: 90%;
+        margin-bottom: 25px;
+    }
+    .graphs_fourth_row{
+        flex-direction: column;
+    }
+
+    .sunbrustgraph{
+        width: 90%;
+        margin: auto ;
+        margin-bottom: 25px;
+    }
+
+    .histogramgraph {
+        width: 90%;
+        margin: auto;
+    }
+
+    .graphs_sixth_row{
+        flex-direction: column;
+    }
+
+    .chordgraph{
+        width : 90% ;
+        margin: auto;
+        margin-bottom:  25px;
+    }
+
+    .circle_packing_graph{
+        width : 90% ;
+        margin: auto;
+    }
+    
+    .graphs_seventh_row{
+        flex-direction: column;
+
+    }
+
+    .graphs_eight_row{
+        flex-direction: column;
+    }
+
+    .radar_graph{
+        width: 90%;
+        margin: auto ;
+       
+    }
+
+    .bubbleChart {
+        display: none;
+    }
+}
+
+.brandLogo {
+    margin-bottom: -8px;
+    margin-top: 8px;
+}
+
+.brandLogo img{
+    width: 200px;
+    
+}
+
+.linegraph {
+    width: 90%;
+    padding: 0px 8px;
+    padding-top: 6px;
+}
+
+.projectInfo{
+    margin-left: 1%;
+    margin-top: 8px;
+}
+
+.projectInfo h6{
+    height: 16px;
+    color: var(--grey);
+}
+
+.info_det{
+    display: flex;
+
+}
+
+.info_det h6:first-child {
+    width: 85px;
+    color: var(--grey2);
+}
+
+.info_det h6:last-child{
+    color: rgb(95, 93, 93);
+    font-size: 14px;
+}
